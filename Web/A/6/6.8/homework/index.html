@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <title>PWS A6 HOMEWORK</title>
+</head>
+<body>
+  <style>
+    .btn{
+      width: 130px;
+    }
+  </style>
+  <div class="container" style="border-radius: 10px;margin-top: 100px; background: mistyrose; width: 800px; padding: 30px; box-shadow: 0 0 30px 1px rgba(0,0,0,.2);">
+    <div class="h1" style="text-align: center;">This is hometask. Please click the button to add new value.</div>
+    <div class="progress" style="height: 25px; border: 1px solid dimgrey; margin: 20px 0;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" id="value"></div>
+    </div>
+
+    <div class="buttons" style="display: flex; justify-content: space-between;">
+      <button type="button" class="btn btn-info" onclick="addValue(1);">+1%</button>
+      <button type="button" class="btn btn-info" onclick="addValue(3);">+3%</button>
+      <button type="button" class="btn btn-info" onclick="addValue(7);">+7%</button>
+      <button type="button" class="btn btn-info" onclick="addValue(0);">Reset</button>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

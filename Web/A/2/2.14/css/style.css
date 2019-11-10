@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	background-color: #F6F2F2;
+}
+
+header {
+	margin: 31px 166px;
+    height: 89px;
+	background-color: #313030;
+}
+
+.nav {
+	max-width: 580px;
+	margin: 0 auto;
+
+} 
+
+.menu {
+	position: absolute;
+	margin: 0;
+	/*top: 15px;*/
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
+    padding: 33px 20px;
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.menu li:hover {
+	background-color: #FF3644;
+}
+
+.menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	color: #E0E0E0;
+}
+
+.first-menu {
+	position: relative;
+    margin: 180px 170px;
+}
+/*
+.upper {
+	max-width: 500px;
+}*/
+
+.upper h1{
+	text-transform: uppercase;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 90px;
+	line-height: 90px;
+	letter-spacing: 1.5px;
+	display: flex;
+	color: #000;
+}
+
+.text {
+	max-width: 750px;
+}
+
+.text p{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.contact-button {
+	position: absolute;
+	border: 0;
+	margin: 65px 0;
+	padding: 25px 90px;
+	font-size: 23px;
+	border-radius: 8px;
+	font-weight: 800;
+	background-color: #FF2D2D;
+	color: #fff;
+}
+
+.contact-button:hover {
+	border: 0;
+	border-radius: 8px;
+	background-color: #E92B3C;
+}
+
+.contact-button:active {
+	border: 0;
+	border-radius: 8px;
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.simg {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
