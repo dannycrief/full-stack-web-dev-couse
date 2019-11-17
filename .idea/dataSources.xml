@@ -7,5 +7,23 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Web/B/4/4.7/b4_7.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="users" uuid="e1a3fbf7-46c6-4860-8a5c-deac30dbef7d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Web/B/4/4.9/users.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sochi_athletes" uuid="0863019e-9d00-4303-be6a-15b4806d4416">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Web/B/4/4.12/sochi_athletes.sqlite3</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="identifier.sqlite" uuid="6e46c6ee-f045-43bf-8ce4-5885ad2525fa">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
+    </data-source>
   </component>
 </project>
