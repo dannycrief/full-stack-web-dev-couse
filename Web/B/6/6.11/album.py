@@ -9,7 +9,7 @@ Base = declarative_base()
 
 class Album(Base):
     """
-    Описывает структуру таблицы album для хранения записей музыкальной библиотеки
+    Opisuje strukturę tabeli albumów do przechowywania rekordów biblioteki muzycznej
     """
 
     __tablename__ = "album"
@@ -23,7 +23,7 @@ class Album(Base):
 
 def connect_db():
     """
-    Устанавливает соединение к базе данных, создает таблицы, если их еще нет и возвращает объект сессии
+    Ustanawia połączenie z bazą danych, tworzy tabele, jeśli je nie ma, i zwraca obiekt sesji
     """
     engine = sa.create_engine(DB_PATH)
     Base.metadata.create_all(engine)
@@ -33,8 +33,11 @@ def connect_db():
 
 def find(artist):
     """
-    Находит все альбомы в базе данных по заданному артисту
+    Znajduje wszystkie albumy w bazie danych dla danego wykonawcy
     """
     session = connect_db()
     albums = session.query(Album).filter(Album.artist == artist).all()
     return albums
+
+
+

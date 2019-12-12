@@ -4,6 +4,7 @@ from bottle import HTTPError
 
 import album
 
+
 @route("/albums/<artist>")
 def albums(artist):
     albums_list = album.find(artist)
@@ -12,7 +13,7 @@ def albums(artist):
         result = HTTPError(404, message)
     else:
         album_names = [album.album for album in albums_list]
-        result = "Список альбомов {}<br>".format(artist)
+        result = "List of albums: {}<br>".format(artist)
         result += "<br>".join(album_names)
     return result
 

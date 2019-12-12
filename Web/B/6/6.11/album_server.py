@@ -8,14 +8,17 @@ import album
 def albums(artist):
     albums_list = album.find(artist)
     if not albums_list:
-        message = "Альбомов {} не найдено".format(artist)
+        message = "Album {} nie jest znaleziony".format(artist)
         result = HTTPError(404, message)
     else:
         album_names = [album.album for album in albums_list]
-        result = "Список альбомов {}: ".format(artist)
-        result += ", ".join(album_names)
+        result = "Lista albumów {}<br>".format(artist)
+        result += "<br>".join(album_names)
     return result
 
 
 if __name__ == "__main__":
     run(host="localhost", port=8080, debug=True)
+
+
+
