@@ -9,60 +9,20 @@
 </head>
 <body>
 <style type="text/css">
-    button{
-      padding: 20px;
-      background: transparent;
-      border: 1px solid blue;
+    button {
+        padding: 20px;
+        background: transparent;
+        border: 1px solid blue;
     }
 </style>
-<script type="text/javascript">
-    function jQuery (selector, context = document){
-        this.elements = Array.from(context.querySelectorAll(selector));
-        return this
-    }
 
-    jQuery.prototype.each = function (fn){
-        this.elements.forEach((element, index) => fn.call(element, element, index));
-        return this;
-    };
+<button>but1</button>
+<button>but2</button>
+<button>but3</button>
+<button>but4</button>
 
-    jQuery.prototype.click = function(fn){
-        this.each(element => element.addEventListener('click', fn));
-        return this
-    };
-
-    jQuery.prototype.hide = function(){
-        this.each(element => element.style.display = 'none');
-      return this;
-    };
-
-    jQuery.prototype.show = function(){
-        this.each(element => element.style.display = '');
-      return this;
-    };
-
-    jQuery.prototype.remove = function(){
-        this.each(element => element.remove());
-      return this;
-    };
-
-    jQuery.prototype.class = function(name){
-        this.each(element => element.className = name);
-      return this;
-    };
-
-    const $ = (e) => new jQuery(e);
-
-    $('button').hide().show().click(e => console.log(e)).class('name')
-</script>
-
-    <button>but1</button>
-    <button>but2</button>
-    <button>but3</button>
-    <button>but4</button>
-
-    <div>
-        <h1>hello</h1>
-    </div>
+<div>
+    <h1>hello</h1>
+</div>
 </body>
 </html>

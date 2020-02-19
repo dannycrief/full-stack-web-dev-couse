@@ -32,15 +32,15 @@ jQuery.prototype.class = function (name) {
     this.each(element => element.className = name);
     return this;
 };
-
-jQuery.prototype.html = function(text) {
-  this.each(element => element.innerHTML = text);
-  return this;
+// Task 1
+jQuery.prototype.html = function (text) {
+    this.each(element => element.innerHTML = text);
+    return this;
 };
-
-jQuery.prototype.text = function(text) {
-  this.each(element => element.innerText = text);
-  return this;
+// Task 2
+jQuery.prototype.text = function (text) {
+    this.each(element => element.innerText = text);
+    return this;
 };
 
 const $ = (e) => new jQuery(e);
