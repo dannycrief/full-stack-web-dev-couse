@@ -1,0 +1,151 @@
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	font-style: normal;
+	background-color: #F2F2F2;
+}
+
+header {
+	margin-top: 29px;
+}
+
+.menu {
+	margin: 0 auto;
+	max-width: 1249px;
+	min-height: 89px;
+
+	display: flex;
+	align-items: center;
+
+	background-color: #000;
+}
+
+.menu-list {
+	margin: 0 auto;
+	max-width: 1249px;
+	min-height: inherit;
+	list-style: none;
+	padding-inline-start: 0;
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu-list a {
+	margin-right: 17px;
+	margin-left: 17px;
+	width: 89px;
+	height: 89px;
+	
+
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-weight: 600px;
+
+
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+
+	color: #E0E0E0;
+}
+
+.menu-list a:hover{
+	background-color: #FF3F40;
+}
+
+.section {
+	max-width: 1249px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content {
+	margin-top: 91px;
+	vertical-align: top;
+	max-width: 595px;
+}
+
+.main-text {
+	margin-block-start: 0;
+    margin-block-end: 0;
+
+	text-transform: uppercase;
+	font-size: 65px;
+	font-weight: 800;
+	line-height: 72px;
+	letter-spacing: 1.5px;
+}
+
+.lorem {
+	margin-block-start: 0;
+    margin-block-end: 0;
+
+	width: 545px;
+	margin-top: 20px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	line-height: 28px;
+	font-size: 16px;
+
+	color: #000;
+}
+
+.button {
+	margin-top: 54px;
+	width: 225px;
+	height: 54px;
+	border-radius: 5px;
+
+	font-weight: 800;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #FF2D2D;
+}
+
+.video {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	vertical-align: top;
+	max-width: 550px;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 40px rgba(0,0,0,0.35);
+
+}
+
+.video img {
+	width: 550px;
+	height: 360px;
+}

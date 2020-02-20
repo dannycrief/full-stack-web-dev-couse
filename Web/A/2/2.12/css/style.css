@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+header {
+	padding-bottom: 30px;
+	background-color: #153586;
+
+}
+
+.header-wrapper {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	position: relative;
+	top: 20px;
+}
+
+.site-menu {
+	position: absolute;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+	top: 50%;
+}
+
+.site-menu li {
+	display: inline-block;
+}
+
+.site-menu a {
+	font-size: 20px;
+	color: white;
+}
