@@ -2,96 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="20.02.20 12:07">
-      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/1 @goodleey/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/1 @goodleey/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/2 @IrishPhone/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/2 @IrishPhone/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.4/goingToSSE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.4/webGeneration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/css/freelancer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/css/freelancer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/avataaars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/cabin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/circus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/safe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/img/portfolio/submarine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/contact_me.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/freelancer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/freelancer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/js/jqBootstrapValidation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/base/_page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/base/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/components/_divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/freelancer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/layout/_contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/layout/_masthead.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/layout/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/scss/layout/_portfolio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../first.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../second.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../third.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.4 Decorators in Python/first.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.4 Decorators in Python/second.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.4 Decorators in Python/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/first.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/second.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/third.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.7 Cycle tasks/tasks.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +213,7 @@
       <workItem from="1582144360058" duration="1329000" />
       <workItem from="1582146803991" duration="1372000" />
       <workItem from="1582190593221" duration="3316000" />
-      <workItem from="1582194592835" duration="582000" />
+      <workItem from="1582194592835" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -347,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582193233350</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="20.02.20 12:43">
+      <created>1582195411486</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582195411486</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +298,8 @@
     <MESSAGE value="20.02.20 11:31" />
     <MESSAGE value="20.02.20 11:32" />
     <MESSAGE value="20.02.20 12:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.02.20 12:07" />
+    <MESSAGE value="20.02.20 12:43" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.02.20 12:43" />
   </component>
   <component name="WindowStateProjectService">
     <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582147466552">
