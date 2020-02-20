@@ -1,5 +1,0 @@
-{
-  "age": 24,
-  "gender": "male",
-  "name": "Monty Python"
-}

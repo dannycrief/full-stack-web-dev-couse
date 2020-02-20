@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/1 @goodleey/countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/1 @goodleey/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/2 @IrishPhone/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/1/1.11/checked/2 @IrishPhone/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.4/gointToSSE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.4/webGeneration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/THE BEST EXAMPLE/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../first.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../second.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again../third.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/B/5/5.6 Function as an object. Again/third.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="albums" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="b4_7" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sochi_athletes" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sochi_athletes" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="0863019e-9d00-4303-be6a-15b4806d4416" />
+    </checked>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="danny &lt;step.kozbvb@gmail.com&gt;" />
+        <option value="Stepan Kozurak" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Web" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R47vTubklClKqPRrfF3X5gPrBR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="{}" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Web/B/6/6.11" />
+      <recent name="$PROJECT_DIR$/Web/B/2/2.5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Web/B/6/6.11" />
+      <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.gointToSSE">
+    <configuration name="gointToSSE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Full-stack Pytho web developer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/C/2/2.4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/C/2/2.4/gointToSSE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webGeneration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Full-stack Pytho web developer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/C/2/2.4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/C/2/2.4/webGeneration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gointToSSE" />
+        <item itemvalue="Python.webGeneration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="" />
+      <created>1568914744999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568914744999</updated>
+      <workItem from="1568914747894" duration="765000" />
+      <workItem from="1568915697244" duration="3787000" />
+      <workItem from="1568995385679" duration="6043000" />
+      <workItem from="1569325373559" duration="20475000" />
+      <workItem from="1569700356875" duration="17000" />
+      <workItem from="1570126463211" duration="12606000" />
+      <workItem from="1570359344607" duration="6047000" />
+      <workItem from="1570444136518" duration="279000" />
+      <workItem from="1570466011615" duration="8746000" />
+      <workItem from="1571244523948" duration="5079000" />
+      <workItem from="1571318970254" duration="13307000" />
+      <workItem from="1571352245704" duration="14714000" />
+      <workItem from="1571471222073" duration="13453000" />
+      <workItem from="1571565608528" duration="2844000" />
+      <workItem from="1572443510152" duration="6392000" />
+      <workItem from="1572460887031" duration="6185000" />
+      <workItem from="1573114923355" duration="3547000" />
+      <workItem from="1573331208993" duration="2154000" />
+      <workItem from="1573401174220" duration="5694000" />
+      <workItem from="1573407567796" duration="17983000" />
+      <workItem from="1573563407324" duration="4681000" />
+      <workItem from="1573639909339" duration="1729000" />
+      <workItem from="1573723945003" duration="358000" />
+      <workItem from="1573987416496" duration="26519000" />
+      <workItem from="1574095091330" duration="7853000" />
+      <workItem from="1574167500147" duration="2285000" />
+      <workItem from="1574196428361" duration="1218000" />
+      <workItem from="1574339656437" duration="8477000" />
+      <workItem from="1574352727815" duration="47000" />
+      <workItem from="1574414326803" duration="2197000" />
+      <workItem from="1574722074670" duration="806000" />
+      <workItem from="1575495549099" duration="4862000" />
+      <workItem from="1575549116709" duration="2714000" />
+      <workItem from="1575926651167" duration="4341000" />
+      <workItem from="1576060757671" duration="173000" />
+      <workItem from="1576180635109" duration="2831000" />
+      <workItem from="1576569903245" duration="4077000" />
+      <workItem from="1576760843203" duration="31000" />
+      <workItem from="1577577162544" duration="48000" />
+      <workItem from="1577577224882" duration="1752000" />
+      <workItem from="1578573188308" duration="213000" />
+      <workItem from="1582144360058" duration="1329000" />
+      <workItem from="1582146803991" duration="1372000" />
+      <workItem from="1582190593221" duration="2654000" />
+    </task>
+    <task id="LOCAL-00001" summary="B4.12 - First task">
+      <created>1574002959430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574002959430</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20.02.20 11:26">
+      <created>1582190825871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582190825871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20.02.20 11:28">
+      <created>1582190884964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582190884964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20.02.20 11:31">
+      <created>1582191101942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191101942</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20.02.20 11:32">
+      <created>1582191186468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191186468</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20.02.20 11:32">
+      <created>1582191253638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582191253638</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20.02.20 12:07">
+      <created>1582193233350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582193233350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="B4.12 - First task" />
+    <MESSAGE value="20.02.20 11:26" />
+    <MESSAGE value="20.02.20 11:28" />
+    <MESSAGE value="20.02.20 11:31" />
+    <MESSAGE value="20.02.20 11:32" />
+    <MESSAGE value="20.02.20 12:07" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.02.20 12:07" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582147466552">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582147466552" />
+    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582193233219">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582193233219" />
+    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582147390296">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
+    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582147390296" />
+    <state width="879" height="275" key="GridCell.Tab.0.bottom" timestamp="1582193023911">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
+    <state width="879" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582193023911" />
+    <state width="879" height="275" key="GridCell.Tab.0.center" timestamp="1582193023911">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
+    <state width="879" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582193023911" />
+    <state width="879" height="275" key="GridCell.Tab.0.left" timestamp="1582193023910">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
+    <state width="879" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582193023910" />
+    <state width="879" height="275" key="GridCell.Tab.0.right" timestamp="1582193023911">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
+    <state width="879" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582193023911" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1575927111667">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1575927111667" />
+    <state x="437" y="309" width="1215" height="737" key="SettingsEditor" timestamp="1582148084939">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="437" y="309" width="1215" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582148084939" />
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582190596022">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577577245896" />
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582190596022" />
+    <state x="1133" y="259" width="648" height="678" key="search.everywhere.popup" timestamp="1578573192867">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1575550471867" />
+    <state x="1133" y="259" width="648" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1578573192867" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Full_stack_Pytho_web_developer$gointToSSE.coverage" NAME="gointToSSE Coverage Results" MODIFIED="1582193023895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/2/2.4" />
+    <SUITE FILE_PATH="coverage/Full_stack_Pytho_web_developer$webGeneration.coverage" NAME="webGeneration Coverage Results" MODIFIED="1582193017830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/2/2.4" />
+  </component>
+</project>
