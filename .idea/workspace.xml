@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="20.02.20 12:07">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.5/EventSourse.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.6/evtSource.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.8/common.js" afterDir="false" />
@@ -19,7 +18,6 @@
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/list_results.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/my_db.sqlite" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/sse_server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/A/5/5.15/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/5/5.15/js/bootstrap.bundle.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/A/5/5.15/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/5/5.15/js/jquery-3.4.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/bootstrap.bundle.min.js" afterDir="false" />
@@ -70,12 +68,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="my_db" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ExecutionTargetDialog">
@@ -95,6 +88,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="dannycrief &lt;step.kozbvb@icloud.com&gt;" />
         <option value="danny &lt;step.kozbvb@gmail.com&gt;" />
         <option value="Stepan Kozurak" />
       </list>
@@ -264,11 +258,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.list_results" />
       <item itemvalue="Python.create_db" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.increase_cats" />
+      <item itemvalue="Python.list_results" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list>
@@ -346,7 +340,7 @@
       <workItem from="1582144360058" duration="1329000" />
       <workItem from="1582146803991" duration="1372000" />
       <workItem from="1582190593221" duration="3316000" />
-      <workItem from="1582194592835" duration="18602000" />
+      <workItem from="1582194592835" duration="19000000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -443,10 +437,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1582313384958" />
-    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582318297124">
+    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582318744726">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582318297124" />
+    <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582318744726" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582194589150">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
