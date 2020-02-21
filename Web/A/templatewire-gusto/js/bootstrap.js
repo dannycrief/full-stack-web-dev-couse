@@ -812,7 +812,7 @@ if (typeof jQuery === 'undefined') {
       return $this.trigger('click')
     }
 
-    var desc = ' li:not(.disabled):visible a'
+    var desc = ' li:a1(.disabled):visible a'
     var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
 
     if (!$items.length) return
@@ -2024,7 +2024,7 @@ if (typeof jQuery === 'undefined') {
 
   Tab.prototype.show = function () {
     var $this    = this.element
-    var $ul      = $this.closest('ul:not(.dropdown-menu)')
+    var $ul      = $this.closest('ul:a1(.dropdown-menu)')
     var selector = $this.data('target')
 
     if (!selector) {

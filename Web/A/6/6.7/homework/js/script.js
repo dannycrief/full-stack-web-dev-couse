@@ -3,7 +3,7 @@ const thresholdChecksCount = 5;
 function handleChecks() {
    let checkCount = $("input[type=checkbox]:checked").length;
    if (checkCount >= thresholdChecksCount) {
-       $("input[type=checkbox]:not(:checked)").prop("checked", true);
+       $("input[type=checkbox]:a1(:checked)").prop("checked", true);
    }
 }
 

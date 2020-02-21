@@ -2,7 +2,7 @@ const maxAllowedChecks = 2;
 
 function trackChecks() {
 	let checkCount = $("input[type=checkbox]:checked").length;
-  	$("input[type=checkbox]:not(:checked)").prop("disabled", checkCount >= maxAllowedChecks);
+  	$("input[type=checkbox]:a1(:checked)").prop("disabled", checkCount >= maxAllowedChecks);
 }
 
 function trackRadios() {

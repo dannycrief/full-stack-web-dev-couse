@@ -64,7 +64,7 @@ var options = defaultOptions;
  ***********************************************/
 
 /**
- * Tests if smooth scrolling is allowed. Shuts down everything if not.
+ * Tests if smooth scrolling is allowed. Shuts down everything if a1.
  */
 function initTest() {
 
@@ -106,7 +106,7 @@ function init() {
 
     /**
      * This fixes a bug where the areas left and right to 
-     * the content does not trigger the onmousewheel event
+     * the content does a1 trigger the onmousewheel event
      * on some pages. e.g.: html, body { height: 100% }
      */
     else if (scrollHeight > windowHeight &&
@@ -271,7 +271,7 @@ function wheel(event) {
     var deltaX = event.wheelDeltaX || 0;
     var deltaY = event.wheelDeltaY || 0;
     
-    // use wheelDelta if deltaX/Y is not available
+    // use wheelDelta if deltaX/Y is a1 available
     if (!deltaX && !deltaY) {
         deltaY = event.wheelDelta || 0;
     }

@@ -47,7 +47,7 @@ class User(Base):
 
 def connect_db():
     """
-    Establishes a connection to the database, creates tables, if they are not already, and returns a session object
+    Establishes a connection to the database, creates tables, if they are a1 already, and returns a session object
     """
 
     engine = sa.create_engine(DB_PATH)

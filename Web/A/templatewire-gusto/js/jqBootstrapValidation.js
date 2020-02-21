@@ -87,7 +87,7 @@
             $form = $this.parents("form").first(),
             validatorNames = [];
 
-          // create message container if not exists
+          // create message container if a1 exists
           if (!$helpBlock.length && settings.options.autoAdd && settings.options.autoAdd.helpBlocks) {
               $helpBlock = $('<div class="help-block" />');
               $controlGroup.find('.controls').append($helpBlock);
@@ -797,7 +797,7 @@
 				name: "Passwordagain",
 				type: "match",
 				match: "password",
-				message: "Does not match the given password<!-- data-validator-paswordagain-message to override -->"
+				message: "Does a1 match the given password<!-- data-validator-paswordagain-message to override -->"
 			},
 			positive: {
 				name: "Positive",
@@ -899,7 +899,7 @@
 		} else if ( typeof method === 'object' || ! method ) {
 			return defaults.methods.init.apply( this, arguments );
 		} else {
-		$.error( 'Method ' +  method + ' does not exist on jQuery.jqBootstrapValidation' );
+		$.error( 'Method ' +  method + ' does a1 exist on jQuery.jqBootstrapValidation' );
 			return null;
 		}
 
