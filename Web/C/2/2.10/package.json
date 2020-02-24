@@ -1,0 +1,24 @@
+{
+  "name": "2.10",
+  "version": "1.0.0",
+  "description": "Voting by SSE",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "console.log('It works');"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannycrief/full-stack-web-dev-couse/tree/master/Web/C/2/2.10"
+  },
+  "keywords": [
+    "Dogs",
+    "Parrots",
+    "Cats"
+  ],
+  "author": "Stepan Kozurak",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
