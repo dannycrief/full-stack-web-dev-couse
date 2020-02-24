@@ -8,6 +8,61 @@
 </head>
 <body>
 
+<div class="main">
+    <div class="m-left-side">
+        <h1>Welcome to my question!</h1>
+        <div class="animals">
+            <div class="animal cat" title="Cat">
+                <img src="./img/cat.png" title="Cat" class="img-cat" alt="Cat logo">
+            </div>
+            <div class="animal" title="Dog">
+                <img src="./img/dog.png" title="Dog" alt="Dog logo">
+            </div>
+            <div class="animal" title="Parrot">
+                <img src="./img/parrot.png" title="Parrot" alt="Parrot logo">
+            </div>
+        </div>
+        <h4>Please leave your choice on the right side.</h4>
+    </div>
+    <div class="m-right-side">
+        <div class="questions">
+            <h1 class="question">Which one do you like more?</h1>
+            <div class="buttons">
+                <button type="button" class="btn btn-light" id="cat">
+                    <img src="./img/cat-right.png" alt="Cat"> cat
+                </button>
+                <button type="button" class="btn btn-light" id="dog">
+                    <img src="./img/dog-right.png" alt="Dog"> dog
+                </button>
+                <button type="button" class="btn btn-light" id="parrot">
+                    <img src="./img/parrot-right.png" alt="Parrot"> parrot
+                </button>
+            </div>
+        </div>
+        <div class="progress-lines" style="display: none">
+            <h2>So, here's a result...</h2>
+            <p>Cats</p>
+            <div class="progress">
+                <div class="progress-cats progress-bar progress-bar-striped bg-success" role="progressbar"
+                     style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Cats
+                </div>
+            </div>
+            <p>Dogs</p>
+            <div class="progress">
+                <div class="progress-dogs progress-bar progress-bar-striped bg-success" role="progressbar"
+                     style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Dogs
+                </div>
+            </div>
+            <p>Parrots</p>
+            <div class="progress">
+                <div class="progress-parrots progress-bar progress-bar-striped bg-success" role="progressbar"
+                     style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Parrots
+                </div>
+            </div>
+            <button type="button" class="btn btn-light" onclick="goBack()">Go back</button>
+        </div>
+    </div>
+</div>
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./js/main.js"></script>
 </body>

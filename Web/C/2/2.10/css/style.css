@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: black;
+}
+
+.m-left-side {
+    max-width: 36%;
+    background-color: #F2F2F2;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-left-side > h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.animals {
+    display: flex;
+}
+
+.animals img {
+    width: 120px;
+    height: 120px;
+}
+
+.m-right-side {
+    width: 74%;
+    padding-top: 30px;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF6200;
+}
+
+.m-right-side .question {
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 0 15px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    background-color: #F8F9FA;
+}
+
+.buttons img {
+    width: 80px;
+    height: 55px;
+}
+
+.progress-lines {
+    height: 350px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: #FF6200 1px 2px 8px 2px;
+    background-color: whitesmoke;
+}
+
+.progress-lines h2 {
+    margin: 10px 0 30px 0;
+}
+
+.progress {
+    height: 25px;
+    width: 650px;
+    display: flex;
+    margin: 7px 0 10px 0;
+}

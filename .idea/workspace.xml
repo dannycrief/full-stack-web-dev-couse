@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/cat-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/dog-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/parrot-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/parrot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +111,10 @@
       <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Full-stack Pytho web developer/Web/C/2/2.10/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Full-stack Pytho web developer/Web/C/2/2.10/friend/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -110,28 +122,6 @@
       <method v="2" />
     </configuration>
     <configuration name="some_file_with.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Web/C/friend/src/some_file_with.js" working-dir="$PROJECT_DIR$/Web/C/friend/src">
-      <method v="2" />
-    </configuration>
-    <configuration name="increase_cats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Full-stack Pytho web developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/increase_cats.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -147,17 +137,17 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.some_file_with.js" />
-      <item itemvalue="Python.increase_cats" />
       <item itemvalue="npm.test" />
       <item itemvalue="Node.js.main.js" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="npm.test" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.some_file_with.js" />
-        <item itemvalue="Python.increase_cats" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +219,7 @@
       <workItem from="1582190593221" duration="3316000" />
       <workItem from="1582194592835" duration="20794000" />
       <workItem from="1582541716113" duration="492000" />
-      <workItem from="1582571664908" duration="1634000" />
+      <workItem from="1582571664908" duration="13453000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -339,7 +329,8 @@
     <MESSAGE value="21.02.2020 22:58" />
     <MESSAGE value="24.02.2020 12:55" />
     <MESSAGE value="24.02.2020 21:38" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.02.2020 21:38" />
+    <MESSAGE value="24.02.2020 21:42" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.02.2020 21:42" />
   </component>
   <component name="WindowStateProjectService">
     <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582203123438">
@@ -350,10 +341,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1582313384958" />
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582573328672">
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582573377080">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582573328672" />
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582573377080" />
     <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1582318788463">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
