@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="20.02.20 12:07">
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.5/EventSourse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.6/evtSource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.8/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.8/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.8/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/a1/reorganizationAndConfiguration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/appp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/appp/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/appp/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/create_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/increase_cats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/list_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts/my_db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.9/backend/sse_server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/5/5.15/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/5/5.15/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/5/5.15/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/5/5.15/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.14/answer/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.14/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.14/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.14/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.14/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.6/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.6/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.6/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.6/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/homework/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.7/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.7/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/1ex/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/2ex/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/homework/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/homework/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/6/6.8/homework/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/6/6.8/homework/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/SmoothScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/SmoothScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/contact_me.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/contact_me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/jqBootstrapValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/jqBootstrapValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/jquery.1.11.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/A/templatewire-gusto/js/jquery.1.11.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/B/3/3.12/main_for_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/B/3/3.12/main_for_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/B/4/4.12/find_athlete.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/B/4/4.12/find_athlete.py" afterDir="false" />
+    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/css/hw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/fonts/Jura-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/cat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/dog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/parrot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/src/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/src/some_file_with.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/C/2/2.10" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,6 +95,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Web/C/2/2.10" />
       <recent name="$PROJECT_DIR$/Web/B/6/6.11" />
       <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
     </key>
@@ -146,7 +107,10 @@
       <recent name="$PROJECT_DIR$/Web/C/2/2.8" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.increase_cats">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Full-stack Pytho web developer/Web/C/2/2.10/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="create_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Full-stack Pytho web developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,42 +199,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Full-stack Pytho web developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/C/2/2.9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/C/2/2.9/backend/app/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.create_db" />
-      <item itemvalue="Python.increase_cats" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Python.list_results" />
+      <item itemvalue="Python.create_db" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.server" />
+      <item itemvalue="Python.increase_cats" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.increase_cats" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.list_results" />
         <item itemvalue="Python.create_db" />
-        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +282,7 @@
       <workItem from="1582144360058" duration="1329000" />
       <workItem from="1582146803991" duration="1372000" />
       <workItem from="1582190593221" duration="3316000" />
-      <workItem from="1582194592835" duration="19000000" />
+      <workItem from="1582194592835" duration="20794000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -398,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582195411486</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="21.02.2020 22:58">
+      <created>1582318745795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582318745795</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +375,8 @@
     <MESSAGE value="20.02.20 11:32" />
     <MESSAGE value="20.02.20 12:07" />
     <MESSAGE value="20.02.20 12:43" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.02.20 12:43" />
+    <MESSAGE value="21.02.2020 22:58" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.02.2020 22:58" />
   </component>
   <component name="WindowStateProjectService">
     <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582203123438">
@@ -441,47 +391,51 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1014" y="83" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582318744726" />
+    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1582318788463">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582318788463" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582194589150">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582194589150" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom" timestamp="1582318269292">
+    <state width="1804" height="286" key="GridCell.Tab.0.bottom" timestamp="1582321950852">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582318269292" />
-    <state width="879" height="286" key="GridCell.Tab.0.center" timestamp="1582318269289">
+    <state width="1804" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950852" />
+    <state width="1804" height="286" key="GridCell.Tab.0.center" timestamp="1582321950851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582318269289" />
-    <state width="879" height="286" key="GridCell.Tab.0.left" timestamp="1582318269285">
+    <state width="1804" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950851" />
+    <state width="1804" height="286" key="GridCell.Tab.0.left" timestamp="1582321950851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582318269285" />
-    <state width="879" height="286" key="GridCell.Tab.0.right" timestamp="1582318269290">
+    <state width="1804" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950851" />
+    <state width="1804" height="286" key="GridCell.Tab.0.right" timestamp="1582321950852">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582318269290" />
-    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1582312112197">
+    <state width="1804" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950852" />
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1582321950840">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582312112197" />
-    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1582312112196">
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950840" />
+    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1582321950839">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582312112196" />
-    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1582312112195">
+    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950839" />
+    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1582321950832">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582312112195" />
-    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1582312112196">
+    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950832" />
+    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1582321950839">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582312112196" />
+    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582321950839" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1582313304685">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -491,11 +445,11 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="437" y="309" width="1215" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582148084939" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582190596022">
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582541717363">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577577245896" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582190596022" />
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582541717362" />
     <state x="1133" y="259" width="648" height="678" key="search.everywhere.popup" timestamp="1578573192867">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
