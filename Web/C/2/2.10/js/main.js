@@ -62,24 +62,24 @@ const header = new Headers({
 const ES = new EventSource(url, header);
 
 ES.onerror = () => {
-    !ES.readyState ? progressCats.textContent = "Some error" : null;
+    ES.readyState ? progressCats.textContent = "Some error" : null;
 };
 
 ES.onmessage = message => {
-    let vote_data = JSON.parse(message.data);
-    let pets_sum = vote_data.cats + vote_data.dogs + vote_data.parrots;
-    let parsed_cats = (vote_data.cats * 100) / pets_sum;
-    let parsed_dogs = (vote_data.dogs * 100) / pets_sum;
-    let parsed_parrots = (vote_data.parrots * 100) / pets_sum;
+    const parsedData = JSON.parse(message.data);
+    const pets_sum = parsedData.cats + parsedData.dogs + parsedData.parrots;
+    const parsed_cats = (parsedData.cats * 100) / pets_sum;
+    const parsed_dogs = (parsedData.dogs * 100) / pets_sum;
+    const parsed_parrots = (parsedData.parrots * 100) / pets_sum;
 
     progressCats.style.cssText = `width: ${parsed_cats}%;`;
-    progressCats.textContent = `${vote_data.cats} voices`;
-    // dogs stat
+    progressCats.textContent = `${parsedData.cats} voices`;
+
     processDogs.style.cssText = `width: ${parsed_dogs}%;`;
-    processDogs.textContent = `${vote_data.dogs} voices`;
-    //parrots stat
+    processDogs.textContent = `${parsedData.dogs} voices`;
+
     processParrots.style.cssText = `width: ${parsed_parrots}%;`;
-    processParrots.textContent = `${vote_data.parrots} voices`
+    processParrots.textContent = `${parsedData.parrots} voices`
 };
 
 function goBack() {
