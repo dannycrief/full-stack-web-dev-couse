@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<script>
+    'use strict';
+    // специальные символы (пробелы), требуется кодирование
+    let name = "my name";
+    let value = "John Smith";
+
+    // кодирует в my%20name=John%20Smith
+    document.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value);
+
+    alert(document.cookie); // ...; my%20name=John%20Smith
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    'use strict';
+    alert(document.cookie); // cookie1=value1; cookie2=value2;...
+    // возвращает куки с указанным name,
+    // или undefined, если ничего не найдено
+    function getCookie(name) {
+        let matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    // Отсутствие параметров expires и max-age говорит о том, что куки удалятся после закрытия браузера.
+
+    // expires=Wed, 18 Sep 2019 21:00:00 GMT Формат даты должен быть такой
+
+
+    // +1 день от текущей даты
+    let date = new Date(Date.now() + 86400e3);
+    date = date.toUTCString();
+    document.cookie = "user=Max; expires=" + date;
+
+
+    // куки будет удалено через 1 час
+    document.cookie = "user=Max; max-age=3600";
+
+    // удалим куки (срок действия истекает прямо сейчас)
+    document.cookie = "user=Max; max-age=0";
+
+
+    // предполагается, что сейчас мы на https://
+    // установим опцию secure для куки (куки доступно только через HTTPS)
+    document.cookie = "user=Max; secure";
+</script>
+</body>
+</html>
