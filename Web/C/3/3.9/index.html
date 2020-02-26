@@ -2,13 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Cookies</title>
 </head>
 <body>
 <section class="main">
-<h1>mothershit</h1>
+    <div class="table">
+        <div class="top">
+            <h1>Welcome! Please leave your data below</h1>
+        </div>
+        <div class="line"></div>
+        <div class="second-block">
+            <div class="left-side">
+                <div class="before-city">
+                    <h4>We need a place where are you living</h4>
+                    <label for="city">Home:</label>
+                    <input type="text" id="city" placeholder="Where do you live?">
+                    <button type="button" id="submitHome" class="btn btn-light">Send</button>
+                </div>
+                <div class="after-city">
+                    <div class="home">
+
+                    </div>
+                    <button type="button" id="clearButton" class="btn btn-light">Clear</button>
+                </div>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="right-side">
+                <div class="before-check">
+                    <h4>Please select something</h4>
+
+                    <label for="call">
+                        <input type="checkbox" id="call">Don't call me;
+                    </label>
+                    <label for="read">
+                        <input type="checkbox" id="read">
+                        I've read and agree to the terms of use of the service;
+                    </label>
+                    <label for="freedom">
+                        <input type="checkbox" id="freedom">
+                        I confirm that freedom on the Internet is the ability to choose checkboxes;
+                    </label>
+                    <label for="years">
+                        <input type="checkbox" id="years">
+                        I'm over 12 years old;
+                    </label>
+                    <label for="task">
+                        <input type="checkbox" id="task">
+                        I think this task is completed correctly;
+                    </label>
+                    <button type="button" class="check-save btn btn-light">Save</button>
+                </div>
+                <div class="after-check">
+                    <button type="button" class="check-clear btn btn-light">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./js/common.js"></script>

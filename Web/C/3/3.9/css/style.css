@@ -1,4 +1,62 @@
 body {
-    background: rgb(76, 34, 195);
-    background: linear-gradient(353deg, rgba(76, 34, 195, 1) 0%, rgba(253, 45, 149, 1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+}
+
+.main {
+    height: 550px;
+    width: 700px;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: 0 0 20px 11px #ddd6f3;
+    border: 1px solid #faaca8;
+    background-color: rgba(250, 172, 168, 0.25);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top h1 {
+    font-size: 35px;
+}
+
+.line {
+    height: 1px;
+    background-color: #ddd6f3;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.left-side {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.before-city {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-vertical {
+    width: 1px;
+    height: 300px;
+    background-color: #ddd6f3;
+}
+
+.right-side {
+    width: 50%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
 }
