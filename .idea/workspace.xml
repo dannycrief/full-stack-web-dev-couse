@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/cat-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/dog-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/parrot-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/2/2.10/img/parrot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.3/answers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.3/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.5/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.6/CookieBootle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.6/cookie&amp;time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.6/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.7/localStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/C/3/3.9/js/tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/2/2.10/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/2/2.10/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/1/1.8/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/1/1.8/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/3/3.9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/3/3.9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/3/3.9/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/3/3.9/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/C/2/2.10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/C/3/3.9/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -206,7 +186,7 @@
       <workItem from="1582541716113" duration="492000" />
       <workItem from="1582571664908" duration="14355000" />
       <workItem from="1582639524993" duration="20731000" />
-      <workItem from="1582834957902" duration="2109000" />
+      <workItem from="1582834957902" duration="5138000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -285,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582573109151</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="27.02.2020 22:37">
+      <created>1582839454189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582839454189</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +304,8 @@
     <MESSAGE value="24.02.2020 12:55" />
     <MESSAGE value="24.02.2020 21:38" />
     <MESSAGE value="24.02.2020 21:42" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.02.2020 21:42" />
+    <MESSAGE value="27.02.2020 22:37" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.02.2020 22:37" />
   </component>
   <component name="WindowStateProjectService">
     <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582680521201">
