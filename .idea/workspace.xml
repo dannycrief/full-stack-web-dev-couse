@@ -205,7 +205,8 @@
       <workItem from="1582194592835" duration="20794000" />
       <workItem from="1582541716113" duration="492000" />
       <workItem from="1582571664908" duration="14355000" />
-      <workItem from="1582639524993" duration="19495000" />
+      <workItem from="1582639524993" duration="20731000" />
+      <workItem from="1582834957902" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -327,10 +328,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1582313384958" />
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582573377080">
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582839453182">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582573377080" />
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582839453182" />
     <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1582318788463">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -385,11 +386,11 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="437" y="309" width="1215" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582148084939" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582639525094">
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582834971981">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577577245896" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582639525094" />
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582834971981" />
     <state x="1133" y="259" width="648" height="678" key="search.everywhere.popup" timestamp="1578573192867">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
