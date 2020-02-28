@@ -1,4 +1,28 @@
-// Left side cookies
+jQuery.prototype.getElementAttribute = function(elementName) {
+    this.each(element => element.getAttribute(elementName));
+    return this;
+}
+
+jQuery.prototype.setElementAttribute = function(elementName, elementValue) {
+    this.each(element => element.setAttribute(elementName, elementValue));
+    return this;
+}
+
+jQuery.prototype.removeElementAttribute = function(elementName) {
+    this.each(element => element.removeAttribute(elementName));
+    return this;
+}
+
+jQuery.prototype.hide = function () {
+    this.each(element => element.style.display = 'none');
+    return this;
+};
+
+jQuery.prototype.show = function () {
+    this.each(element => element.style.display = '');
+    return this;
+};
+const $ = (e) => new jQuery(e);
 $('.after-city').hide();
 
 city.value = localStorage.getItem('city');
@@ -62,3 +86,8 @@ checkClear.onclick = () => {
     storage = '';
     location.reload();
 };
+
+
+
+
+
