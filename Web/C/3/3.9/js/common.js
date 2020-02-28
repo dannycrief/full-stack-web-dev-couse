@@ -1,28 +1,3 @@
-jQuery.prototype.getElementAttribute = function(elementName) {
-    this.each(element => element.getAttribute(elementName));
-    return this;
-}
-
-jQuery.prototype.setElementAttribute = function(elementName, elementValue) {
-    this.each(element => element.setAttribute(elementName, elementValue));
-    return this;
-}
-
-jQuery.prototype.removeElementAttribute = function(elementName) {
-    this.each(element => element.removeAttribute(elementName));
-    return this;
-}
-
-jQuery.prototype.hide = function () {
-    this.each(element => element.style.display = 'none');
-    return this;
-};
-
-jQuery.prototype.show = function () {
-    this.each(element => element.style.display = '');
-    return this;
-};
-const $ = (e) => new jQuery(e);
 $('.after-city').hide();
 
 city.value = localStorage.getItem('city');
@@ -49,26 +24,26 @@ clearButton.onclick = () => {
 };
 
 // Right side cookies
-let updatedStorage = localStorage.getItem('storage');
-let nexItem;
+updatedStorage = localStorage.getItem('storage');
 if (Boolean(updatedStorage)) {
-    for (let i = updatedStorage.length; i > 0; i++) {
-        nexItem = '#check' + String(updatedStorage + 1);
+    for (let i = 0; i < updatedStorage.length; i++) {
+        nexItem = '#check' + String(1 + i);
         if (updatedStorage[i] === '1') {
-            $(nexItem).setElementAttribute('checked', 'true');
+            document.querySelector(nexItem).setAttribute('checked', 'true');
         } else {
-            $(nexItem).removeElementAttribute('checked');
+            document.querySelector(nexItem).removeAttribute('checked');
         }
-        $(nexItem).setElementAttribute('disabled', 'true')
+        document.querySelector(nexItem).setAttribute('disabled', 'true')
     }
     $('#checkSave').hide();
     $('#checkClear').show();
+} else {
+    $('#checkSave').show();
+    $('#checkClear').hide();
 }
 
-
-let storage = '';
-
 checkSave.onclick = () => {
+    let storage = '';
     const checked = document.querySelectorAll('input[name="check"]');
     for (let checkedElement = 0; checkedElement < checked.length; checkedElement++) {
         if (checked[checkedElement].checked) {
@@ -78,7 +53,7 @@ checkSave.onclick = () => {
         }
     }
     localStorage.setItem('storage', storage);
-        location.reload();
+    location.reload();
 };
 
 checkClear.onclick = () => {

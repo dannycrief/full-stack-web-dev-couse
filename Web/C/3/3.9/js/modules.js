@@ -1,62 +1,62 @@
-function jQuery(selector, context = document) {
+function jQuery (selector, context = document) {
     this.elements = Array.from(context.querySelectorAll(selector));
-    return this
+    return this;
 }
 
-jQuery.prototype.each = function (fn) {
+jQuery.prototype.each = function(fn) {
     this.elements.forEach((element, index) => fn.call(element, element, index));
     return this;
 };
 
-jQuery.prototype.click = function (fn) {
+jQuery.prototype.click = function(fn) {
     this.each(element => element.addEventListener('click', fn));
-    return this;
+    return this
 };
 
-jQuery.prototype.hide = function () {
+jQuery.prototype.hide = function() {
     this.each(element => element.style.display = 'none');
     return this;
 };
 
-jQuery.prototype.show = function () {
+jQuery.prototype.show = function() {
     this.each(element => element.style.display = '');
     return this;
 };
 
-jQuery.prototype.remove = function () {
-    this.each(element => element.remove());
+jQuery.prototype.html = function(newHtml) {
+    if (newHtml) {
+        this.each(element => element.outerHTML = newHtml);
+        return this;
+    }
+    return this.elements[0].outerHTML;
+};
+
+jQuery.prototype.text = function(newText) {
+    if (newText) {
+        this.each(element => element.innerText = newText);
+        return this;
+    }
+    return this.elements[0].innerText;
+};
+
+jQuery.prototype.class = function(cName) {
+    this.each(element => element.className = cName);
     return this;
 };
 
-jQuery.prototype.class = function (name) {
-    this.each(element => element.className = name);
+jQuery.prototype.getattrib = function(aName) {
+    this.each(element => element.getAttribute(aName));
     return this;
 };
 
-jQuery.prototype.html = function (text) {
-    this.each(element => element.innerHTML = text);
+jQuery.prototype.setattrib = function(aName, aValue) {
+    this.each(element => element.setAttribute(aName, aValue));
     return this;
 };
 
-jQuery.prototype.text = function (text) {
-    this.each(element => element.innerText = text);
+jQuery.prototype.remattrib = function(aName) {
+    this.each(element => element.removeAttribute(aName));
     return this;
 };
-
-jQuery.prototype.getElementAttribute = function(elementName) {
-    this.each(element => element.getAttribute(elementName));
-    return this;
-}
-
-jQuery.prototype.setElementAttribute = function(elementName, elementValue) {
-    this.each(element => element.setAttribute(elementName, elementValue));
-    return this;
-}
-
-jQuery.prototype.removeElementAttribute = function(elementName) {
-    this.each(element => element.removeAttribute(elementName));
-    return this;
-}
-
 
 const $ = (e) => new jQuery(e);
