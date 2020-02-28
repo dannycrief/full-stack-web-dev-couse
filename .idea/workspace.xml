@@ -79,7 +79,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/C/3/3.9/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -189,6 +189,7 @@
       <workItem from="1582639524993" duration="20731000" />
       <workItem from="1582834957902" duration="11291000" />
       <workItem from="1582851392743" duration="201000" />
+      <workItem from="1582855734211" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
