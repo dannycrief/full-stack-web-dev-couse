@@ -6,7 +6,7 @@ function jQuery(selector, context = document) {
 jQuery.prototype.each = function (fn) {
     this.elements.forEach((element, index) => fn.call(element, element, index));
     return this;
-}
+};
 
 jQuery.prototype.click = function (fn) {
     this.each(element => element.addEventListener('click', fn));
@@ -37,12 +37,26 @@ jQuery.prototype.html = function (text) {
     this.each(element => element.innerHTML = text);
     return this;
 };
-// Task 2
+
 jQuery.prototype.text = function (text) {
     this.each(element => element.innerText = text);
     return this;
 };
 
-const $ = (e) => new jQuery(e);
+jQuery.prototype.getElementAttribute = function(elementName) {
+    this.each(element => element.getAttribute(elementName));
+    return this;
+}
 
-$('button').html('check_it').text('check_it_____');
+jQuery.prototype.setElementAttribute = function(elementName, elementValue) {
+    this.each(element => element.setAttribute(elementName, elementValue));
+    return this;
+}
+
+jQuery.prototype.removeElementAttribute = function(elementName) {
+    this.each(element => element.removeAttribute(elementName));
+    return this;
+}
+
+
+const $ = (e) => new jQuery(e);
