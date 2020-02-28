@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/1/1.8/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/1/1.8/tasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/3/3.9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/3/3.9/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/3/3.9/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/3/3.9/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/3/3.9/js/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/3/3.9/js/modules.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
         <option value="Stepan Kozurak" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -90,7 +86,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -190,6 +186,7 @@
       <workItem from="1582834957902" duration="11291000" />
       <workItem from="1582851392743" duration="201000" />
       <workItem from="1582855734211" duration="1140000" />
+      <workItem from="1582858015886" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -303,6 +300,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Web" />
+    </ignored-roots>
     <MESSAGE value="B4.12 - First task" />
     <MESSAGE value="20.02.20 11:26" />
     <MESSAGE value="20.02.20 11:28" />
@@ -382,10 +382,10 @@
     </state>
     <state width="263" height="500" key="HiddenNamespacesPopup/0.27.1920.1053@0.27.1920.1053" timestamp="1575927111667" />
     <state width="263" height="500" key="HiddenNamespacesPopup/70.27.1850.1053@70.27.1850.1053" timestamp="1582313304685" />
-    <state x="437" y="309" width="1215" height="737" key="SettingsEditor" timestamp="1582148084939">
+    <state x="386" y="131" width="1215" height="737" key="SettingsEditor" timestamp="1582858080726">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="437" y="309" width="1215" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582148084939" />
+    <state x="386" y="131" width="1215" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1582858080726" />
     <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582852217924">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
