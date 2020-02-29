@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="29.02.20 01:09AM Vue.js begging">
+    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/backend/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/backend/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/src/components/Todos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/src/components/Todos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/C/4___VUE.JS/answers_for_C4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/4___VUE.JS/answers_for_C4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,7 @@
         <option value="Stepan Kozurak" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -226,7 +221,7 @@
       <workItem from="1582922761616" duration="7731000" />
       <workItem from="1582940335823" duration="5710000" />
       <workItem from="1582984840976" duration="5929000" />
-      <workItem from="1582994257138" duration="1425000" />
+      <workItem from="1582994257138" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -333,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582935172201</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="29.02.20 6:05PM">
+      <created>1582995922276</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582995922276</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +375,8 @@
     <MESSAGE value="27.02.2020 23:39" />
     <MESSAGE value="28.02.20 03:49Am" />
     <MESSAGE value="29.02.20 01:09AM Vue.js begging" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.02.20 01:09AM Vue.js begging" />
+    <MESSAGE value="29.02.20 6:05PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.02.20 6:05PM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582680521201">
@@ -388,10 +391,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1290" y="445" width="325" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582942714485" />
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582946413699">
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1582995921814">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582946413699" />
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1582995921814" />
     <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1582318788463">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -401,26 +404,30 @@
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582194589150" />
-    <state width="869" height="286" key="GridCell.Tab.0.bottom" timestamp="1582995602374">
+    <state x="1283" y="470" width="338" height="173" key="Github.Dialog.Accounts.Choose" timestamp="1582996047822">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="1283" y="470" width="338" height="173" key="Github.Dialog.Accounts.Choose/70.27.1850.1053@70.27.1850.1053" timestamp="1582996047822" />
+    <state width="869" height="286" key="GridCell.Tab.0.bottom" timestamp="1582995976272">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="869" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582995602374" />
-    <state width="869" height="286" key="GridCell.Tab.0.center" timestamp="1582995602373">
+    <state width="869" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1582995976272" />
+    <state width="869" height="286" key="GridCell.Tab.0.center" timestamp="1582995976272">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="869" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582995602373" />
-    <state width="869" height="286" key="GridCell.Tab.0.left" timestamp="1582995602372">
+    <state width="869" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1582995976272" />
+    <state width="869" height="286" key="GridCell.Tab.0.left" timestamp="1582995976272">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="869" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582995602372" />
-    <state width="869" height="286" key="GridCell.Tab.0.right" timestamp="1582995602373">
+    <state width="869" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1582995976272" />
+    <state width="869" height="286" key="GridCell.Tab.0.right" timestamp="1582995976272">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="869" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582995602373" />
+    <state width="869" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1582995976272" />
     <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1582321950840">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -450,10 +457,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1207" y="208" width="490" height="698" key="VCS.ChangeListViewerDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582935227168" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582935184579">
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1582995948098">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1582935184579" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1582995948098" />
     <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1582994257157">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
