@@ -36,20 +36,21 @@ tasks_db = {
 
 
 @enable_cors
-@app.route("/api/tasks/")
-def index():
-    tasks = [task.to_dict() for task in tasks_db.values()]
-    return {"tasks": tasks}
-
-
-@bottle.route("/api/add-task", method="POST")
+@app.route("/api/tasks/", method=["GET", "POST"])
 def add_task():
-    desc = bottle.request.POST.description.strip()
-    if len(desc) > 0:
-        new_uid = max(tasks_db.keys()) + 1
-        t = TodoItem(desc, new_uid)
-        tasks_db[new_uid] = t
-    return "Ok"
+    if bottle.request.method == 'GET':
+        tasks = [task.to_dict() for task in tasks_db.values()]
+        return {"tasks": tasks}
+    elif bottle.request.method == "POST":
+        desc = bottle.request.json['description']
+        is_completed = bottle.request.json.get('is_completed', False)
+        if len(desc) > 0:
+            new_uid = max(tasks_db.keys()) + 1
+            t = TodoItem(desc, new_uid)
+            t.is_completed = is_completed
+            tasks_db[new_uid] = t
+        return "OK"
+
 
 
 @bottle.route("/api/delete/<uid:int>")
