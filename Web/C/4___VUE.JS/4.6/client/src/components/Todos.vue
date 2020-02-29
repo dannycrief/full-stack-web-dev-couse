@@ -112,7 +112,7 @@ export default {
       axios.post(todoListURL, requestData)
         .then(() => {
           this.getTodos();
-          this.message = `Задача "${requestData.description}" добавлена`;
+          this.confirmationMessage = `Задача "${requestData.description}" добавлена`;
           this.showConfirmation = true;
         });
       this.resetForm();
