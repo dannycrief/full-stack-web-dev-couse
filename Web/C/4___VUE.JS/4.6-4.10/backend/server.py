@@ -68,18 +68,6 @@ def show_or_modify_task(uid):
         return f"Deleted task {uid}"
 
 
-# @bottle.route("/api/delete/<uid:int>")
-# def api_delete(uid):
-#     tasks_db.pop(uid)
-#     return "Ok"
-#
-#
-# @bottle.route("/api/complete/<uid:int>")
-# def api_complete(uid):
-#     tasks_db[uid].is_completed = True
-#     return "Ok"
-
-
 app.install(CorsPlugin(origins=['http://localhost:8000']))
 
 if __name__ == "__main__":
