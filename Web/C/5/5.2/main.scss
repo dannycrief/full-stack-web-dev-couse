@@ -1,0 +1,53 @@
+// SCSS
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+// CSS
+:root {
+  --white: white;
+  --black: black;
+}
+
+div {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+// imports
+@import "reset";
+
+body {
+  background-color: #efefef;
+}
+
+// mixins
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.box {
+    @include transform(rotate(30deg));
+}
+
+// extensions
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}

@@ -201,7 +201,7 @@ export default {
       this.addTodoForm = todo;
     },
   },
-  deleteTodo(todo) {
+  deleteTodo(tod
     const todoURL = dataURL + todo.uid;
     axios.delete(todoURL)
       .then(() => {
