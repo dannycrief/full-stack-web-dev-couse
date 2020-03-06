@@ -1,21 +1,29 @@
 import sys
 import requests
 
+key = input('Enter your Trello API key: ')
+token = input('Enter your Trello API token: ')
+user_border_id = input('Enter your Trello border id (In url before table name): ')
+
+# 4bc1fc7385ed7fdf3134f511c5531d03
+# 38ca4209db4c5a0b77233ca3dc7762dbf473e825658db23353bffc0dcae6ee64
+# 6OFCfLo2
 auth_params = {
-    'key': '4bc1fc7385ed7fdf3134f511c5531d03',
-    'token': '38ca4209db4c5a0b77233ca3dc7762dbf473e825658db23353bffc0dcae6ee64',
+    'key': key,
+    'token': token,
 }
 
 base_url = 'https://api.trello.com/1/{}'
-board_id = '6OFCfLo2'
+board_id = user_border_id
+long_id = requests.get(base_url.format('boards') + '/' + board_id, params=auth_params).json()['id']
+
+column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
 
 
 def read():
-    column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
-
     for column in column_data:
-        print(column['name'])
         task_data = requests.get(base_url.format('lists') + '/' + column['id'] + '/cards', params=auth_params).json()
+        print(column['name'], '-' * 30 + '> Items in this table:', len(task_data))
         if not task_data:
             print('\t' + 'There are no tasks!')
             continue
@@ -23,18 +31,15 @@ def read():
             print('\t' + task['name'])
 
 
-def create(name, column_name):
-    column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
-
+def create(name: str, column_name: str):
     for column in column_data:
         if column['name'] == column_name:
             requests.post(base_url.format('cards'), data={'name': name, 'idList': column['id'], **auth_params})
+            read()
             break
 
 
-def move(name, column_name):
-    column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
-
+def move(name: str, column_name: str):
     task_id = None
     for column in column_data:
         column_tasks = requests.get(base_url.format('lists') + '/' + column['id'] + '/cards', params=auth_params).json()
@@ -48,13 +53,65 @@ def move(name, column_name):
         if column['name'] == column_name:
             requests.put(base_url.format('cards') + '/' + task_id + '/idList',
                          data={'value': column['id'], **auth_params})
+            read()
             break
 
 
-if __name__ == "__main__":
-    if len(sys.argv) <= 2:
+def delete(name: str, column_name: str):
+    for column in column_data:
+        if column['name'] == column_name:
+            column_tasks = requests.get(base_url.format('lists') + '/' + column['id'] + '/cards',
+                                        params=auth_params).json()
+            for task in column_tasks:
+                if task['name'] == name:
+                    requests.request("DELETE", base_url.format('cards') + '/' + task['id'], params=auth_params)
+                    print(task['name'] + ' was deleted\n')
+                    read()
+                    break
+
+
+def add_table(column_name):
+    column_check = 0
+    for column in column_data:
+        if column['name'] == column_name:
+            column_check += 1
+    if column_check > 0:
+        print('Column {} is already exist on table'.format(column_name))
+    else:
+        response = requests.post(base_url.format('lists'), params={
+            'name': column_name,
+            'idBoard': long_id,
+            **auth_params
+        })
+        print('Column {} successfully created'.format(column_name))
+        print(response.text)
         read()
-    elif sys.argv[1] == 'create':
-        create(sys.argv[2], sys.argv[3])
-    elif sys.argv[1] == 'move':
-        move(sys.argv[2], sys.argv[3])
+
+
+def check_arguments():
+    try:
+        if (sys.argv[2] or sys.argv[3]) is not None:
+            print('Error! Unknown command. Try to use another arguments!')
+            exit(-1)
+    except IndexError as IE:
+        print('Error! Arguments not found!')
+        exit(-1)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        read()
+    else:
+        if check_arguments():
+            if sys.argv[1] == 'create':
+                create(sys.argv[2], sys.argv[3])
+            elif sys.argv[1] == 'move':
+                move(sys.argv[2], sys.argv[3])
+            elif sys.argv[1] == 'delete':
+                delete(sys.argv[2], sys.argv[3])
+            elif sys.argv == 'add_table':
+                add_table(sys.argv[2])
+            else:
+                print("Unknown command: {}".format(sys.argv[1]))
+        else:
+            print('Something went wrong')
