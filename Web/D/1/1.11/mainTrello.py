@@ -3,13 +3,13 @@ import time
 
 import requests
 
-key = input('Enter your Trello API key: ')
-token = input('Enter your Trello API token: ')
-user_border_id = input('Enter your Trello border id (In url before table name): ')
+# key = input('Enter your Trello API key: ')
+# token = input('Enter your Trello API token: ')
+# user_border_id = input('Enter your Trello border id (In url before table name): ')
 
-# 4bc1fc7385ed7fdf3134f511c5531d03
-# 38ca4209db4c5a0b77233ca3dc7762dbf473e825658db23353bffc0dcae6ee64
-# 6OFCfLo2
+key = '4bc1fc7385ed7fdf3134f511c5531d03'
+token = '38ca4209db4c5a0b77233ca3dc7762dbf473e825658db23353bffc0dcae6ee64'
+user_border_id = '6OFCfLo2'
 auth_params = {
     'key': key,
     'token': token,
@@ -22,10 +22,22 @@ long_id = requests.get(base_url.format('boards') + '/' + board_id, params=auth_p
 column_data = requests.get(base_url.format('boards') + '/' + board_id + '/lists', params=auth_params).json()
 
 
+def findTask(to_find: str):
+    for column in column_data:
+        column_tasks = requests.request('GET', base_url.format('lists') + '/' + column['id'] + '/cards',
+                                        params=auth_params).json()
+        for task in column_tasks:
+            if to_find == task['name']:
+                print('"{}" is in "{}" table'.format(to_find, column['name']))
+                return True
+            else:
+                return False
+
+
 def read():
     for column in column_data:
         task_data = requests.get(base_url.format('lists') + '/' + column['id'] + '/cards', params=auth_params).json()
-        print(column['name'], '-' * 30 + '> Items in this table:', len(task_data))
+        print('\n', column['name'], '-' * 30 + '> Items in this table:', len(task_data))
         if not task_data:
             print('\t' + 'There are no tasks!')
             continue
@@ -34,6 +46,10 @@ def read():
 
 
 def create(name: str, column_name: str):
+    if not findTask(name):
+        print('shit')
+        read()
+        exit()
     for column in column_data:
         if column['name'] == column_name:
             requests.post(base_url.format('cards'), data={'name': name, 'idList': column['id'], **auth_params})
@@ -51,8 +67,6 @@ def move(name: str, column_name: str):
             if task['name'] == name:
                 task_id = task['id']
                 break
-            else:
-                print('Task "{}" was not found'.format(name))
         if task_id:
             break
     for column in column_data:
@@ -80,7 +94,7 @@ def delete(name: str, column_name: str):
                     print('Task "{}" was not found'.format(name))
 
 
-def add_table(column_name):
+def addTable(column_name):
     column_check = 0
     for column in column_data:
         if column['name'] == column_name:
@@ -98,15 +112,15 @@ def add_table(column_name):
         read()
 
 
-def check_arguments():
+def checkArguments():
     try:
         if (sys.argv[2] or sys.argv[3]) is not None:
             print('Wait please...')
             time.sleep(0.4)
         else:
             print('Error! Unknown command. Try to use another arguments!')
-            exit(-1)
-    except IndexError as IE:
+            exit(1)
+    except IndexError:
         print('Error! Arguments not found!')
         exit(-1)
 
@@ -115,14 +129,14 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         read()
     else:
-        check_arguments()
+        checkArguments()
         if sys.argv[1] == 'create':
             create(sys.argv[2], sys.argv[3])
         elif sys.argv[1] == 'move':
             move(sys.argv[2], sys.argv[3])
         elif sys.argv[1] == 'delete':
             delete(sys.argv[2], sys.argv[3])
-        elif sys.argv == 'add_table':
-            add_table(sys.argv[2])
+        elif sys.argv[1] == 'addTable':
+            addTable(sys.argv[2])
         else:
             print("Unknown command: {}".format(sys.argv[1]))
