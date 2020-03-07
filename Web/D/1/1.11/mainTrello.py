@@ -1,4 +1,6 @@
 import sys
+import time
+
 import requests
 
 key = input('Enter your Trello API key: ')
@@ -37,6 +39,8 @@ def create(name: str, column_name: str):
             requests.post(base_url.format('cards'), data={'name': name, 'idList': column['id'], **auth_params})
             read()
             break
+        else:
+            print('Column "{}" was not found'.format(column_name))
 
 
 def move(name: str, column_name: str):
@@ -47,6 +51,8 @@ def move(name: str, column_name: str):
             if task['name'] == name:
                 task_id = task['id']
                 break
+            else:
+                print('Task "{}" was not found'.format(name))
         if task_id:
             break
     for column in column_data:
@@ -55,6 +61,8 @@ def move(name: str, column_name: str):
                          data={'value': column['id'], **auth_params})
             read()
             break
+        else:
+            print('Column "{}" was not found'.format(column_name))
 
 
 def delete(name: str, column_name: str):
@@ -65,9 +73,11 @@ def delete(name: str, column_name: str):
             for task in column_tasks:
                 if task['name'] == name:
                     requests.request("DELETE", base_url.format('cards') + '/' + task['id'], params=auth_params)
-                    print(task['name'] + ' was deleted\n')
+                    print('\n' + task['name'] + ' was deleted\n')
                     read()
                     break
+                else:
+                    print('Task "{}" was not found'.format(name))
 
 
 def add_table(column_name):
@@ -91,6 +101,9 @@ def add_table(column_name):
 def check_arguments():
     try:
         if (sys.argv[2] or sys.argv[3]) is not None:
+            print('Wait please...')
+            time.sleep(0.4)
+        else:
             print('Error! Unknown command. Try to use another arguments!')
             exit(-1)
     except IndexError as IE:
@@ -102,16 +115,14 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         read()
     else:
-        if check_arguments():
-            if sys.argv[1] == 'create':
-                create(sys.argv[2], sys.argv[3])
-            elif sys.argv[1] == 'move':
-                move(sys.argv[2], sys.argv[3])
-            elif sys.argv[1] == 'delete':
-                delete(sys.argv[2], sys.argv[3])
-            elif sys.argv == 'add_table':
-                add_table(sys.argv[2])
-            else:
-                print("Unknown command: {}".format(sys.argv[1]))
+        check_arguments()
+        if sys.argv[1] == 'create':
+            create(sys.argv[2], sys.argv[3])
+        elif sys.argv[1] == 'move':
+            move(sys.argv[2], sys.argv[3])
+        elif sys.argv[1] == 'delete':
+            delete(sys.argv[2], sys.argv[3])
+        elif sys.argv == 'add_table':
+            add_table(sys.argv[2])
         else:
-            print('Something went wrong')
+            print("Unknown command: {}".format(sys.argv[1]))
