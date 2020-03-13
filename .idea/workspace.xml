@@ -51,7 +51,7 @@
         <option value="Stepan Kozurak" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Web/D/1/1.11" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -108,86 +108,6 @@
       <recent name="$PROJECT_DIR$/Web/B/6/6.11" />
       <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
     </key>
-  </component>
-  <component name="RunManager" selected="JavaScript Debug.Fetch.vue">
-    <configuration name="Fetch.vue" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/full-stack-web-dev-couse/Web/C/4___VUE.JS/client/src/components/Fetch.vue" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Full-stack Pytho web developer/Web/C/3/3.9/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="mainTrello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Full-stack Pytho web developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/1/1.11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/1/1.11/mainTrello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Full-stack Pytho web developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/backend" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/backend/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Full-stack Pytho web developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/1/1.10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/1/1.10/setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.Fetch.vue" />
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -268,6 +188,7 @@
       <workItem from="1582940335823" duration="5710000" />
       <workItem from="1583488787168" duration="15710000" />
       <workItem from="1583538629203" duration="116000" />
+      <workItem from="1583592393661" duration="15533000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -432,10 +353,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="After merge" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582680521201">
+    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583691504461">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582680521201" />
+    <state x="129" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583691504461" />
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583516297350">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -444,39 +365,39 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1290" y="445" width="325" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582942714485" />
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1583461456508">
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1584131252912">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1583461456508" />
-    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1582318788463">
+    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131252912" />
+    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog" timestamp="1583597906540">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582318788463" />
+    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583597906540" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582194589150">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582194589150" />
-    <state width="1804" height="286" key="GridCell.Tab.0.bottom" timestamp="1583521298974">
+    <state width="1804" height="286" key="GridCell.Tab.0.bottom" timestamp="1583548998628">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="1804" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1583521298974" />
-    <state width="1804" height="286" key="GridCell.Tab.0.center" timestamp="1583521298973">
+    <state width="1804" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1583548998628" />
+    <state width="1804" height="286" key="GridCell.Tab.0.center" timestamp="1583548998628">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="1804" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1583521298973" />
-    <state width="1804" height="286" key="GridCell.Tab.0.left" timestamp="1583521298972">
+    <state width="1804" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1583548998628" />
+    <state width="1804" height="286" key="GridCell.Tab.0.left" timestamp="1583548998627">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="1804" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1583521298972" />
-    <state width="1804" height="286" key="GridCell.Tab.0.right" timestamp="1583521298973">
+    <state width="1804" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1583548998627" />
+    <state width="1804" height="286" key="GridCell.Tab.0.right" timestamp="1583548998628">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="1804" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583521298973" />
+    <state width="1804" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583548998628" />
     <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1582321950840">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -510,15 +431,19 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1583461461188" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1583488785741">
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1584131160158">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577577245896" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583488785741" />
-    <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583544905441">
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584131160158" />
+    <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583747974111">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583544905441" />
+    <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583747974111" />
+    <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584131187659">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131187659" />
     <state x="1105" y="264" width="704" height="578" key="find.popup" timestamp="1582941306093">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
