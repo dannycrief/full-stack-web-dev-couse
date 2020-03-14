@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/D/2/2.8/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.9/withSentry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,7 @@
       <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.withSentry">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Full-stack Pytho web developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,8 +129,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="withSentry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Full-stack Pytho web developer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/2/2.9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/2/2.9/withSentry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.withSentry" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -218,7 +241,7 @@
       <workItem from="1584131149466" duration="4273000" />
       <workItem from="1584142067151" duration="1674000" />
       <workItem from="1584143996396" duration="186000" />
-      <workItem from="1584144203841" duration="3494000" />
+      <workItem from="1584144203841" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -420,26 +443,26 @@
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582194589150" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom" timestamp="1584151460686">
+    <state width="879" height="286" key="GridCell.Tab.0.bottom" timestamp="1584152377374">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584151460686" />
-    <state width="879" height="286" key="GridCell.Tab.0.center" timestamp="1584151460684">
+    <state width="879" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377374" />
+    <state width="879" height="286" key="GridCell.Tab.0.center" timestamp="1584152377373">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584151460684" />
-    <state width="879" height="286" key="GridCell.Tab.0.left" timestamp="1584151460683">
+    <state width="879" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377373" />
+    <state width="879" height="286" key="GridCell.Tab.0.left" timestamp="1584152377372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584151460683" />
-    <state width="879" height="286" key="GridCell.Tab.0.right" timestamp="1584151460685">
+    <state width="879" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377372" />
+    <state width="879" height="286" key="GridCell.Tab.0.right" timestamp="1584152377374">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584151460685" />
+    <state width="879" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377374" />
     <state width="879" height="340" key="GridCell.Tab.1.bottom" timestamp="1584143088613">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -511,5 +534,6 @@
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$mainTrello.coverage" NAME="mainTrello Coverage Results" MODIFIED="1583521264977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/1/1.11" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$loggers1.coverage" NAME="loggers1 Coverage Results" MODIFIED="1584144708667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.5" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$source_1.coverage" NAME="source_1 Coverage Results" MODIFIED="1584141188658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.3" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$withSentry.coverage" NAME="withSentry Coverage Results" MODIFIED="1584152377344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.9" />
   </component>
 </project>
