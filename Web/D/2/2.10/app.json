@@ -1,0 +1,6 @@
+{
+  "name": "Python on Heroku D2.10",
+  "description": "Simple project to deploy to Heroku.",
+  "image": "heroku/python",
+  "keywords": ["python", "bottle", "sentry_sdk" ]
+}

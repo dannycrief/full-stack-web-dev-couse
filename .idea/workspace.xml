@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/D/2/2.9/withSentry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/Procfile.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/runtime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/2/2.10/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.6/client/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/C/5/5.9-5.10/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/C/5/5.9-5.10/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +71,7 @@
         <option value="Stepan Kozurak" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Web/C/5/5.9-5.10" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -77,7 +100,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/SAN/VI/PG/san-wirtualny-dziekanat" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -106,8 +129,8 @@
       <recent name="$PROJECT_DIR$/Web/B/4/4.12" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.withSentry">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.server">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Full-stack Pytho web developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/2/2.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/2/2.10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/2/2.8/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/2/2.10/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.withSentry" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +264,11 @@
       <workItem from="1584131149466" duration="4273000" />
       <workItem from="1584142067151" duration="1674000" />
       <workItem from="1584143996396" duration="186000" />
-      <workItem from="1584144203841" duration="4624000" />
+      <workItem from="1584144203841" duration="6471000" />
+      <workItem from="1584205338569" duration="599000" />
+      <workItem from="1584464182009" duration="374000" />
+      <workItem from="1584486501707" duration="835000" />
+      <workItem from="1584550112213" duration="12026000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -418,10 +445,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="944" y="215" width="800" height="684" key="#Log_Highlighting_(ideolog)/70.27.1850.1053@70.27.1850.1053" timestamp="1584151391019" />
-    <state x="280" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584151248765">
+    <state x="280" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584633778688">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="280" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584151248765" />
+    <state x="280" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584633778688" />
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583516297350">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -438,31 +465,31 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583597906540" />
-    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582194589150">
+    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584487584407">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1576760878550" />
-    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1582194589150" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom" timestamp="1584152377374">
+    <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1584487584407" />
+    <state width="879" height="220" key="GridCell.Tab.0.bottom" timestamp="1584638797976">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377374" />
-    <state width="879" height="286" key="GridCell.Tab.0.center" timestamp="1584152377373">
+    <state width="879" height="220" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1584638797976" />
+    <state width="879" height="220" key="GridCell.Tab.0.center" timestamp="1584638797973">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377373" />
-    <state width="879" height="286" key="GridCell.Tab.0.left" timestamp="1584152377372">
+    <state width="879" height="220" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1584638797973" />
+    <state width="879" height="220" key="GridCell.Tab.0.left" timestamp="1584638797971">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377372" />
-    <state width="879" height="286" key="GridCell.Tab.0.right" timestamp="1584152377374">
+    <state width="879" height="220" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1584638797971" />
+    <state width="879" height="220" key="GridCell.Tab.0.right" timestamp="1584638797974">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="883" height="893" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577740492775" />
-    <state width="879" height="286" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584152377374" />
+    <state width="879" height="220" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1584638797974" />
     <state width="879" height="340" key="GridCell.Tab.1.bottom" timestamp="1584143088613">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -496,11 +523,11 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131269435" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1584144204899">
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog" timestamp="1584550124355">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577577245896" />
-    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584144204899" />
+    <state x="521" y="361" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1584550124355" />
     <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583747974111">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -516,7 +543,6 @@
     <state x="1133" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1584143756076">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1575550471867" />
     <state x="1133" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1584143756076" />
     <state x="1182" y="453" width="540" height="207" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582944907932">
       <screen x="70" y="27" width="1850" height="1053" />
@@ -524,16 +550,8 @@
     <state x="1182" y="453" width="540" height="207" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582944907932" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$loggers.coverage" NAME="loggers2 Coverage Results" MODIFIED="1584144710276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.5" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$main.coverage" NAME="main Coverage Results" MODIFIED="1584151250130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.8" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server.coverage" NAME="server Coverage Results" MODIFIED="1582945976717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/4___VUE.JS/4.6/backend" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$tooManyHandlers.coverage" NAME="tooManyHandlers Coverage Results" MODIFIED="1584146208783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.7" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$setup.coverage" NAME="setup Coverage Results" MODIFIED="1583518885960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/1/1.10" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$source_2.coverage" NAME="source_2 Coverage Results" MODIFIED="1584141191577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.3" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$myFirstLogger.coverage" NAME="myFirstLogger Coverage Results" MODIFIED="1584145333663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.6" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$mainTrello.coverage" NAME="mainTrello Coverage Results" MODIFIED="1583521264977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/1/1.11" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$loggers1.coverage" NAME="loggers1 Coverage Results" MODIFIED="1584144708667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.5" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$source_1.coverage" NAME="source_1 Coverage Results" MODIFIED="1584141188658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.3" />
-    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$withSentry.coverage" NAME="withSentry Coverage Results" MODIFIED="1584152377344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.9" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server.coverage" NAME="server Coverage Results" MODIFIED="1584637765464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.10" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1584554477968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/5/5.9-5.10" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$withSentry.coverage" NAME="withSentry Coverage Results" MODIFIED="1584634517709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.9" />
   </component>
 </project>
