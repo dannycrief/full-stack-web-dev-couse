@@ -10,5 +10,6 @@ class Author(models.Model):
 class Book(models.Model):
     ISBN = models.CharField(max_length=13)
     title = models.TextField()
+    description = models.TextField()
     year_release = models.SmallIntegerField()
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
