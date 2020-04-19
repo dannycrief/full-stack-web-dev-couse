@@ -19,6 +19,7 @@ class Book(models.Model):
     copy_count = models.IntegerField(default=1)
     price = models.DecimalField(default=None, max_digits=6, decimal_places=2)
     redaction = models.ForeignKey('Publish', on_delete=models.CASCADE, null=True, blank=True, related_name='books')
+
     def __str__(self):
         return self.title
 
