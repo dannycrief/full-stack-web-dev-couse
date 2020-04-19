@@ -1,0 +1,16 @@
+asn1crypto
+configparser
+cryptography
+dbus-python
+Django
+django-crispy-forms
+entrypoints
+enum34
+ipaddress
+keyring
+keyrings.alt
+Pillow
+pytz
+pyxdg
+SecretStorage
+six
