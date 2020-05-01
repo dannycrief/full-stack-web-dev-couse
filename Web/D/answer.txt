@@ -27,4 +27,4 @@ D4.8
     2) csrf_cookie_age
 D4.9
     1) Ctrl + Shift + T (Mac: Control + Shift + T) верно
-    2)Ctrl + F (Mac: Control + F) верно Ctrl + Shift + F (Mac: Control + Shift + F) верно
+    2)Ctrl + F (Mac: Control + F) & Ctrl + Shift + F (Mac: Control + Shift + F) 

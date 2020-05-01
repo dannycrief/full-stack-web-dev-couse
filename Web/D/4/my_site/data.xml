@@ -37,7 +37,7 @@
             Story of a man who settles and lives in rural Norway.
         </field>
         <field name="year_release" type="SmallIntegerField">1917</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">6</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">6</field>
         <field name="copy_count" type="SmallIntegerField">2</field>
         <field name="price" type="DecimalField">939.70</field>
     </object>
@@ -48,7 +48,7 @@
             Волшебная сказка, вдохновлённая древнерусскими былинами.
         </field>
         <field name="year_release" type="SmallIntegerField">1820</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">2</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">2</field>
         <field name="copy_count" type="SmallIntegerField">1</field>
         <field name="price" type="DecimalField">789.15</field>
     </object>
@@ -59,7 +59,7 @@
             Комедия в пяти действиях русского писателя Николая Васильевича Гоголя.
         </field>
         <field name="year_release" type="SmallIntegerField">1835</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">1</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.authors">1</field>
         <field name="copy_count" type="SmallIntegerField">3</field>
         <field name="price" type="DecimalField">2284.66</field>
     </object>
@@ -68,7 +68,7 @@
         <field name="title" type="TextField">Медный всадник</field>
         <field name="description" type="TextField">Поэма А. С. Пушкина.</field>
         <field name="year_release" type="SmallIntegerField">1837</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">2</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">2</field>
         <field name="copy_count" type="SmallIntegerField">4</field>
         <field name="price" type="DecimalField">1884.04</field>
     </object>
@@ -80,7 +80,7 @@
             Михайловском.
         </field>
         <field name="year_release" type="SmallIntegerField">1825</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">2</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">2</field>
         <field name="copy_count" type="SmallIntegerField">2</field>
         <field name="price" type="DecimalField">2170.84</field>
     </object>
@@ -91,7 +91,7 @@
             Последний по времени и самый длинный роман Ивана Сергеевича Тургенева.
         </field>
         <field name="year_release" type="SmallIntegerField">1877</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">3</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">3</field>
         <field name="copy_count" type="SmallIntegerField">4</field>
         <field name="price" type="DecimalField">1644.10</field>
     </object>
@@ -100,7 +100,7 @@
         <field name="title" type="TextField">The Hitchhiker's Guide to the Galaxy</field>
         <field name="description" type="TextField">Has become an international multi-media phenomenon</field>
         <field name="year_release" type="SmallIntegerField">1979</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">4</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">4</field>
         <field name="copy_count" type="SmallIntegerField">3</field>
         <field name="price" type="DecimalField">2044.16</field>
     </object>
@@ -111,7 +111,7 @@
             Is the fourth book of the Hitchhiker's Guide to the Galaxy
         </field>
         <field name="year_release" type="SmallIntegerField">1984</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">4</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">4</field>
         <field name="copy_count" type="SmallIntegerField">4</field>
         <field name="price" type="DecimalField">2092.53</field>
     </object>
@@ -123,7 +123,7 @@
             alienation, and as a critique on superficiality in society.
         </field>
         <field name="year_release" type="SmallIntegerField">1951</field>
-        <field name="author" rel="ManyToOneRel" to="p_library.author">5</field>
+        <field name="authors" rel="ManyToOneRel" to="p_library.author">5</field>
         <field name="copy_count" type="SmallIntegerField">3</field>
         <field name="price" type="DecimalField">803.60</field>
     </object>
