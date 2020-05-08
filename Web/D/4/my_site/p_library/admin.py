@@ -1,9 +1,5 @@
 from django.contrib import admin
-from .models import Redaction, Book, Author, Inspiration
-
-
-class AuthorsInlineAdmin(admin.TabularInline):
-    model = Book.authors.through
+from .models import Redaction, Book, Authors, Inspiration, Reader
 
 
 @admin.register(Book)
@@ -11,7 +7,7 @@ class BookAdmin(admin.ModelAdmin):
 
     @staticmethod
     def author_full_name(obj):
-        return obj.authors
+        return obj.author.full_name
 
     list_display = (
         'title',
@@ -22,14 +18,15 @@ class BookAdmin(admin.ModelAdmin):
         'title',
         'description',
         'year_release',
+        'author',
         'price',
         'copy_count',
         'redaction',
+        'reader',
     )
-    inlines = (AuthorsInlineAdmin,)
 
 
-@admin.register(Author)
+@admin.register(Authors)
 class AuthorAdmin(admin.ModelAdmin):
     pass
 
@@ -41,4 +38,9 @@ class InspirationAdmin(admin.ModelAdmin):
 
 @admin.register(Redaction)
 class RedactionAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Reader)
+class ReaderAdmin(admin.ModelAdmin):
     pass

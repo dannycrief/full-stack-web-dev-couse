@@ -1,13 +1,12 @@
 from django import forms
-from .models import Author, Book
-from django.forms import formset_factory
+from .models import Authors, Book
 
 
 class AuthorForm(forms.ModelForm):
     full_name = forms.CharField(widget=forms.TextInput)
 
     class Meta:
-        model = Author
+        model = Authors
         fields = '__all__'
 
 

@@ -1,7 +1,8 @@
 from django.db import models
 
 
-class Author(models.Model):
+class Authors(models.Model):
+    """ Author model """
     full_name = models.TextField(max_length=50)
     birth_year = models.SmallIntegerField()
     country = models.CharField(max_length=2)
@@ -11,28 +12,27 @@ class Author(models.Model):
 
 
 class Book(models.Model):
+    """ Book model """
     ISBN = models.CharField(max_length=13)
     title = models.CharField(max_length=128)
     description = models.TextField()
     year_release = models.SmallIntegerField()
-    authors = models.ManyToManyField(
-        Author,
-        through='Inspiration',
-        through_fields=('book', 'author')
-    )
+    author = models.ForeignKey(Authors, on_delete=models.CASCADE, default='')
     copy_count = models.IntegerField(default=1)
     price = models.DecimalField(max_digits=8, decimal_places=2)
     redaction = models.ForeignKey('Redaction', on_delete=models.CASCADE, null=True, blank=True, related_name='books')
+    reader = models.ForeignKey('Reader', on_delete=models.CASCADE, null=True, blank=True, related_name='books')
 
     def __str__(self):
         return self.title
 
 
 class Inspiration(models.Model):
+    """ Inspiration model """
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    author = models.ForeignKey(Authors, on_delete=models.CASCADE)
     inspirer = models.ForeignKey(
-        Author,
+        Authors,
         on_delete=models.CASCADE,
         related_name='inspired_works',
     )
@@ -42,7 +42,17 @@ class Inspiration(models.Model):
 
 
 class Redaction(models.Model):
+    """ Redaction model """
     name = models.CharField(max_length=128)
 
     def __str__(self):
         return self.name
+
+
+class Reader(models.Model):
+    """ Reader model """
+    full_name = models.TextField()
+    birth_year = models.SmallIntegerField()
+
+    def __str__(self):
+        return self.full_name
