@@ -10,19 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="13.03.20 9:27PM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +187,7 @@
       <workItem from="1588436903204" duration="5302000" />
       <workItem from="1588513460090" duration="12044000" />
       <workItem from="1588598637482" duration="619000" />
-      <workItem from="1588958460501" duration="4072000" />
+      <workItem from="1588958460501" duration="4385000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -327,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584131256830</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="13.03.20 9:27PM">
+      <created>1588963259089</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588963259089</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,10 +529,11 @@
     </state>
     <state x="1207" y="208" width="490" height="698" key="VCS.ChangeListViewerDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582935227168" />
     <state x="1208" y="208" key="VCS.ChangeListViewerDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588440556093" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1584131269435">
-      <screen x="70" y="27" width="1850" height="1053" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588963294686">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131269435" />
+    <state x="591" y="289" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1588963294686" />
     <state x="579" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog" timestamp="1588959427735">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
