@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
+    <expand />
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" afterDir="false" />
@@ -65,6 +57,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dannycrief/full-stack-web-dev-couse.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1R47vTubklClKqPRrfF3X5gPrBR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -200,7 +199,7 @@
       <workItem from="1588436903204" duration="5302000" />
       <workItem from="1588513460090" duration="12044000" />
       <workItem from="1588598637482" duration="619000" />
-      <workItem from="1588958460501" duration="3771000" />
+      <workItem from="1588958460501" duration="4072000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -339,7 +338,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
