@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/data.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" afterDir="false" />
@@ -31,32 +30,6 @@
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/my_site/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/my_site/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/my_site/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/my_site/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/author_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/author_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/manage_authors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/manage_books_authors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/templates/publishes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/p_library/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4/my_site/runtime.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +200,7 @@
       <workItem from="1588436903204" duration="5302000" />
       <workItem from="1588513460090" duration="12044000" />
       <workItem from="1588598637482" duration="619000" />
-      <workItem from="1588958460501" duration="3392000" />
+      <workItem from="1588958460501" duration="3771000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -520,11 +493,11 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="263" height="500" key="HiddenNamespacesPopup/70.27.1850.1053@70.27.1850.1053" timestamp="1584667190920" />
-    <state x="579" y="290" width="824" height="533" key="IDE.errors.dialog" timestamp="1588441753813">
+    <state x="579" y="290" width="824" height="533" key="IDE.errors.dialog" timestamp="1588962907107">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="578" y="290" width="824" height="533" key="IDE.errors.dialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587328015627" />
-    <state x="579" y="290" key="IDE.errors.dialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588441753813" />
+    <state x="579" y="290" width="824" height="533" key="IDE.errors.dialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588962907107" />
     <state x="530" y="171" width="1022" height="737" key="SettingsEditor" timestamp="1588330605038">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
