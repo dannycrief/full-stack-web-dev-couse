@@ -1,17 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Список авторов</title>
-</head>
-<body>
-<ul>
-    {% for author in object_list %}
-        <li>{{ author.full_name }}</li>
-    {% endfor %}
-</ul>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block author_list %}
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <ul class="collection">
+                    {% for author in object_list %}
+
+                        <li class="collection-item avatar">
+                            <img src="images/yuna.jpg" alt="" class="circle">
+                            <span class="title">{{ author.full_name }}</span>
+                            <p>First Line <br>
+                                Second Line
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

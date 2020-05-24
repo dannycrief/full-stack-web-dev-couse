@@ -21,12 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="13.03.20 9:27PM">
-      <change afterPath="$PROJECT_DIR$/Web/D/6/2/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/D/6/2/file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/full-stack-web-dev-couse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/full-stack-web-dev-couse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/migrations/0002_auto_20200517_1138.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/answ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answ.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +37,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="full-stack-web-dev-couse" is-module-sdk="true">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="full-stack-web-dev-couse" />
   </component>
   <component name="ExecutionTargetDialog">
     <checked>
@@ -48,9 +53,9 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
-        <option value="HTML File" />
         <option value="package" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -91,7 +96,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/4-5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -122,33 +127,30 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SF" type="Python.DjangoServer" factoryName="Django server">
       <module name="full-stack-web-dev-couse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_site.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/6/2" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/6/2/conf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.conf" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -237,7 +239,9 @@
       <workItem from="1588598637482" duration="619000" />
       <workItem from="1588958460501" duration="6847000" />
       <workItem from="1589047877259" duration="2760000" />
-      <workItem from="1589123748540" duration="1658000" />
+      <workItem from="1589123748540" duration="3689000" />
+      <workItem from="1589197130657" duration="6043000" />
+      <workItem from="1589715120142" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -409,6 +413,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Web" />
+      <path value="$PROJECT_DIR$/Web/D/4-5/my_site" />
+      <path value="$PROJECT_DIR$/Web/D/4/my_site" />
+      <path value="$PROJECT_DIR$/Web/D/6/my_site" />
     </ignored-roots>
     <MESSAGE value="B4.12 - First task" />
     <MESSAGE value="20.02.20 11:26" />
@@ -443,12 +450,12 @@
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="622" y="101" width="666" height="844" key="#SF/0.27.1920.985@0.27.1920.985" timestamp="1588330328816" />
-    <state x="476" y="214" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589047911068">
+    <state x="476" y="214" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589715143378">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="420" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.985@0.27.1920.985" timestamp="1588330296909" />
     <state x="280" y="225" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587324878962" />
-    <state x="476" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1589047911068" />
+    <state x="476" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1589715143378" />
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587309554299">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -470,32 +477,32 @@
     </state>
     <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583597906540" />
     <state x="172" y="127" width="1649" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588441580837" />
-    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl" timestamp="1588964853667">
+    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl" timestamp="1589716058723">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1016" y="426" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.985@0.27.1920.985" timestamp="1588330674725" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1587332752962" />
-    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1588964853667" />
-    <state width="878" height="355" key="GridCell.Tab.0.bottom" timestamp="1589054588710">
+    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1589716058723" />
+    <state width="878" height="358" key="GridCell.Tab.0.bottom" timestamp="1589716061187">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="355" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589054588710" />
-    <state width="878" height="355" key="GridCell.Tab.0.center" timestamp="1589054588709">
+    <state width="878" height="358" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
+    <state width="878" height="358" key="GridCell.Tab.0.center" timestamp="1589716061187">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="355" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589054588709" />
-    <state width="878" height="355" key="GridCell.Tab.0.left" timestamp="1589054588708">
+    <state width="878" height="358" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
+    <state width="878" height="358" key="GridCell.Tab.0.left" timestamp="1589716061187">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="355" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589054588708" />
-    <state width="878" height="355" key="GridCell.Tab.0.right" timestamp="1589054588710">
+    <state width="878" height="358" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
+    <state width="878" height="358" key="GridCell.Tab.0.right" timestamp="1589716061187">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="355" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589054588710" />
+    <state width="878" height="358" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1588546179027">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -557,12 +564,12 @@
     </state>
     <state x="578" y="290" width="824" height="533" key="IDE.errors.dialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587328015627" />
     <state x="579" y="290" width="824" height="533" key="IDE.errors.dialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588962907107" />
-    <state x="582" y="181" width="1022" height="737" key="SettingsEditor" timestamp="1588964856353">
+    <state x="582" y="181" width="1022" height="737" key="SettingsEditor" timestamp="1589715226774">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="530" y="171" width="1022" height="737" key="SettingsEditor/0.27.1920.985@0.27.1920.985" timestamp="1588330605038" />
     <state x="581" y="182" width="1215" height="898" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1587328532531" />
-    <state x="582" y="181" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1588964856353" />
+    <state x="582" y="181" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1589715226774" />
     <state x="1208" y="208" width="490" height="698" key="VCS.ChangeListViewerDialog" timestamp="1588440556093">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -602,16 +609,16 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131187659" />
-    <state x="1106" y="264" width="747" height="578" key="find.popup" timestamp="1588529990124">
+    <state x="1106" y="264" width="747" height="578" key="find.popup" timestamp="1589715452343">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1105" y="264" width="704" height="578" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1587328525855" />
-    <state x="1106" y="264" width="747" height="578" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1588529990124" />
-    <state x="1134" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588530001084">
+    <state x="1106" y="264" width="747" height="578" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1589715452343" />
+    <state x="1134" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1589200997020">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1133" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1587328529896" />
-    <state x="1134" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1588530001084" />
+    <state x="1134" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1589200997020" />
     <state x="1182" y="453" width="540" height="207" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582944907932">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
