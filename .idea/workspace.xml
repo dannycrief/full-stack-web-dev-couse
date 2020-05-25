@@ -21,16 +21,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="13.03.20 9:27PM">
-      <change afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/migrations/0002_auto_20200517_1138.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/8/8.2/fib_nums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/D/8/8.2/ftools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/my_site/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/D/4-5/my_site/p_library/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/answ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +64,8 @@
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
         <option value="package" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -96,7 +106,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="{}" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/4-5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -126,7 +136,73 @@
       <recent name="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.mcache">
+    <configuration name="fib_nums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="full-stack-web-dev-couse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.2/fib_nums.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ftools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="full-stack-web-dev-couse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.2/ftools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mcache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="full-stack-web-dev-couse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.3/mcache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SF" type="Python.DjangoServer" factoryName="Django server">
       <module name="full-stack-web-dev-couse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +227,13 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mcache" />
+        <item itemvalue="Python.ftools" />
+        <item itemvalue="Python.fib_nums" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -242,6 +325,7 @@
       <workItem from="1589123748540" duration="3689000" />
       <workItem from="1589197130657" duration="6043000" />
       <workItem from="1589715120142" duration="940000" />
+      <workItem from="1590433879389" duration="2431000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -483,26 +567,26 @@
     <state x="1016" y="426" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.985@0.27.1920.985" timestamp="1588330674725" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1587332752962" />
     <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1589716058723" />
-    <state width="878" height="358" key="GridCell.Tab.0.bottom" timestamp="1589716061187">
+    <state width="878" height="358" key="GridCell.Tab.0.bottom" timestamp="1590436943845">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
-    <state width="878" height="358" key="GridCell.Tab.0.center" timestamp="1589716061187">
+    <state width="878" height="358" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943845" />
+    <state width="878" height="358" key="GridCell.Tab.0.center" timestamp="1590436943844">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
-    <state width="878" height="358" key="GridCell.Tab.0.left" timestamp="1589716061187">
+    <state width="878" height="358" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943844" />
+    <state width="878" height="358" key="GridCell.Tab.0.left" timestamp="1590436943844">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
-    <state width="878" height="358" key="GridCell.Tab.0.right" timestamp="1589716061187">
+    <state width="878" height="358" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943844" />
+    <state width="878" height="358" key="GridCell.Tab.0.right" timestamp="1590436943845">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589716061187" />
+    <state width="878" height="358" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943845" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1588546179027">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -642,7 +726,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server.coverage" NAME="server Coverage Results" MODIFIED="1584637765464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.10" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$ftools.coverage" NAME="ftools Coverage Results" MODIFIED="1590436943814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.2" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$mcache.coverage" NAME="mcache Coverage Results" MODIFIED="1590437435408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.3" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$withSentry.coverage" NAME="withSentry Coverage Results" MODIFIED="1584634517709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.9" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$fib_nums.coverage" NAME="fib_nums Coverage Results" MODIFIED="1590436841451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.2" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1584554477968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/5/5.9-5.10" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$conf.coverage" NAME="conf Coverage Results" MODIFIED="1589123774366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/6/2" />
   </component>
