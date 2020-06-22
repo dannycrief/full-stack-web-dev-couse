@@ -21,26 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fff264-625f-4f59-a3e9-2f29611e9503" name="Default Changelist" comment="13.03.20 9:27PM">
-      <change afterPath="$PROJECT_DIR$/Web/D/8/8.2/fib_nums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/D/8/8.2/ftools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/E/2/2.3/func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/E/2/2.4/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/answ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/answ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip-20.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/commands/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +120,8 @@
       <recent name="$PROJECT_DIR$/Web/C/2/2.9/backend/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mcache">
-    <configuration name="fib_nums" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sorting">
+    <configuration name="func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="full-stack-web-dev-couse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,12 +129,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/E/2/2.3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.2/fib_nums.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/E/2/2.3/func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ftools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="full-stack-web-dev-couse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,71 +151,24 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/E/2/2.4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.2/ftools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/E/2/2.4/sorting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mcache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="full-stack-web-dev-couse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web/D/8/8.3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web/D/8/8.3/mcache.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SF" type="Python.DjangoServer" factoryName="Django server">
-      <module name="full-stack-web-dev-couse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="my_site.settings" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mcache" />
-        <item itemvalue="Python.ftools" />
-        <item itemvalue="Python.fib_nums" />
+        <item itemvalue="Python.sorting" />
+        <item itemvalue="Python.func" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +262,9 @@
       <workItem from="1589123748540" duration="3689000" />
       <workItem from="1589197130657" duration="6043000" />
       <workItem from="1589715120142" duration="940000" />
-      <workItem from="1590433879389" duration="2431000" />
+      <workItem from="1590433879389" duration="2863000" />
+      <workItem from="1592749593718" duration="5267000" />
+      <workItem from="1592832947481" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="B4.12 - First task">
       <created>1574002959430</created>
@@ -526,20 +465,16 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="624" y="235" width="732" height="644" key="#Inspections/70.27.1850.1053@70.27.1850.1053" timestamp="1587328703026" />
-    <state x="944" y="215" width="800" height="684" key="#Log_Highlighting_(ideolog)" timestamp="1584151391019">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="944" y="215" width="800" height="684" key="#Log_Highlighting_(ideolog)/70.27.1850.1053@70.27.1850.1053" timestamp="1584151391019" />
     <state x="622" y="101" width="666" height="844" key="#SF" timestamp="1588330328817">
       <screen x="0" y="27" width="1920" height="985" />
     </state>
     <state x="622" y="101" width="666" height="844" key="#SF/0.27.1920.985@0.27.1920.985" timestamp="1588330328816" />
-    <state x="476" y="214" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589715143378">
+    <state x="476" y="214" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592749809140">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="420" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.985@0.27.1920.985" timestamp="1588330296909" />
     <state x="280" y="225" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587324878962" />
-    <state x="476" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1589715143378" />
+    <state x="476" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592749809140" />
     <state x="1144" y="358" width="617" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587309554299">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -548,45 +483,36 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588959047978" />
-    <state x="1290" y="445" width="325" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1582942714485">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="1290" y="445" width="325" height="224" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582942714485" />
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2" timestamp="1584131252912">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="694" y="128" width="865" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131252912" />
     <state x="172" y="127" width="1649" height="853" key="DiffContextDialog" timestamp="1588441580837">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="170" y="127" width="1650" height="853" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583597906540" />
     <state x="172" y="127" width="1649" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588441580837" />
-    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl" timestamp="1589716058723">
+    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl" timestamp="1590437569449">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1016" y="426" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.985@0.27.1920.985" timestamp="1588330674725" />
     <state x="1049" y="454" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1587332752962" />
-    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1589716058723" />
-    <state width="878" height="358" key="GridCell.Tab.0.bottom" timestamp="1590436943845">
+    <state x="1050" y="454" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1590437569449" />
+    <state width="878" height="345" key="GridCell.Tab.0.bottom" timestamp="1592836767915">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943845" />
-    <state width="878" height="358" key="GridCell.Tab.0.center" timestamp="1590436943844">
+    <state width="878" height="345" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1592836767915" />
+    <state width="878" height="345" key="GridCell.Tab.0.center" timestamp="1592836767915">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943844" />
-    <state width="878" height="358" key="GridCell.Tab.0.left" timestamp="1590436943844">
+    <state width="878" height="345" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1592836767915" />
+    <state width="878" height="345" key="GridCell.Tab.0.left" timestamp="1592836767914">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943844" />
-    <state width="878" height="358" key="GridCell.Tab.0.right" timestamp="1590436943845">
+    <state width="878" height="345" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1592836767914" />
+    <state width="878" height="345" key="GridCell.Tab.0.right" timestamp="1592836767915">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="879" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1587332758463" />
-    <state width="878" height="358" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1590436943845" />
+    <state width="878" height="345" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1592836767915" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1588546179027">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -657,12 +583,10 @@
     <state x="1208" y="208" width="490" height="698" key="VCS.ChangeListViewerDialog" timestamp="1588440556093">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="1207" y="208" width="490" height="698" key="VCS.ChangeListViewerDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582935227168" />
     <state x="1208" y="208" key="VCS.ChangeListViewerDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1588440556093" />
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588963294686">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131269435" />
     <state x="591" y="289" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1588963294686" />
     <state x="579" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog" timestamp="1588959427735">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -687,12 +611,7 @@
     <state x="649" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588337947415">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="648" y="150" width="683" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583747974111" />
     <state x="649" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1588337947415" />
-    <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584131187659">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1584131187659" />
     <state x="1106" y="264" width="747" height="578" key="find.popup" timestamp="1589715452343">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -703,10 +622,6 @@
     </state>
     <state x="1133" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1587328529896" />
     <state x="1134" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1589200997020" />
-    <state x="1182" y="453" width="540" height="207" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582944907932">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="1182" y="453" width="540" height="207" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1582944907932" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,10 +641,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server.coverage" NAME="server Coverage Results" MODIFIED="1584637765464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.10" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$func.coverage" NAME="func Coverage Results" MODIFIED="1592749922380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/E/2/2.3" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$ftools.coverage" NAME="ftools Coverage Results" MODIFIED="1590436943814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.2" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$mcache.coverage" NAME="mcache Coverage Results" MODIFIED="1590437435408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.3" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$withSentry.coverage" NAME="withSentry Coverage Results" MODIFIED="1584634517709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/2/2.9" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$fib_nums.coverage" NAME="fib_nums Coverage Results" MODIFIED="1590436841451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/8/8.2" />
+    <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$sorting.coverage" NAME="sorting Coverage Results" MODIFIED="1592836767895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/E/2/2.4" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1584554477968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/C/5/5.9-5.10" />
     <SUITE FILE_PATH="coverage/full_stack_web_dev_couse$conf.coverage" NAME="conf Coverage Results" MODIFIED="1589123774366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web/D/6/2" />
   </component>
